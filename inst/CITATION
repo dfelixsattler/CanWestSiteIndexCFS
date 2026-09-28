@@ -5,12 +5,12 @@ bibentry(
   title       = "CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows",
   author      = person("Derek Felix", "Sattler"),
   year        = "2026",
-  note        = "R package version 0.3.0",
+  note        = "R package version 0.3.1",
   url         = "https://github.com/dfelixsattler/CanWestSiteIndexCFS",
   textVersion = paste(
     "Sattler, D. (2026).",
     "CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows.",
-    "R package version 0.3.0.",
+    "R package version 0.3.1.",
     "https://github.com/dfelixsattler/CanWestSiteIndexCFS"
   )
 )

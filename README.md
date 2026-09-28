@@ -196,7 +196,7 @@ clear_external_dll()
 
 If you use CanWestSiteIndexCFS in published work, please cite it as:
 
-> Sattler, D. (2026). *CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows*. R package version 0.3.0. https://github.com/dfelixsattler/CanWestSiteIndexCFS
+> Sattler, D. (2026). *CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows*. R package version 0.3.1. https://github.com/dfelixsattler/CanWestSiteIndexCFS
 
 A machine-readable citation is also available in R via:
 
