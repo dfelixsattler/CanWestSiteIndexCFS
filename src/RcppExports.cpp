@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // age_to_age
 double age_to_age(short int cu_index, double age1, short int age1_type, short int age2_type, double y2bh);
-RcppExport SEXP _BCsindexRCFS_age_to_age(SEXP cu_indexSEXP, SEXP age1SEXP, SEXP age1_typeSEXP, SEXP age2_typeSEXP, SEXP y2bhSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_age_to_age(SEXP cu_indexSEXP, SEXP age1SEXP, SEXP age1_typeSEXP, SEXP age2_typeSEXP, SEXP y2bhSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -27,7 +27,7 @@ END_RCPP
 }
 // fiz_check
 short int fiz_check(char fiz);
-RcppExport SEXP _BCsindexRCFS_fiz_check(SEXP fizSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_fiz_check(SEXP fizSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -38,7 +38,7 @@ END_RCPP
 }
 // height_to_index
 double height_to_index(short int cu_index, double age, short int age_type, double height, short int si_est_type);
-RcppExport SEXP _BCsindexRCFS_height_to_index(SEXP cu_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP heightSEXP, SEXP si_est_typeSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_height_to_index(SEXP cu_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP heightSEXP, SEXP si_est_typeSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -53,7 +53,7 @@ END_RCPP
 }
 // class_to_index
 double class_to_index(short int sp_index, char sitecl, char fiz);
-RcppExport SEXP _BCsindexRCFS_class_to_index(SEXP sp_indexSEXP, SEXP siteclSEXP, SEXP fizSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_class_to_index(SEXP sp_indexSEXP, SEXP siteclSEXP, SEXP fizSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -66,7 +66,7 @@ END_RCPP
 }
 // index_to_age
 double index_to_age(short int cu_index, double site_height, short int age_type, double site_index, double y2bh);
-RcppExport SEXP _BCsindexRCFS_index_to_age(SEXP cu_indexSEXP, SEXP site_heightSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_index_to_age(SEXP cu_indexSEXP, SEXP site_heightSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -81,7 +81,7 @@ END_RCPP
 }
 // index_to_height
 double index_to_height(short int cu_index, double iage, short int age_type, double site_index, double y2bh, double pi);
-RcppExport SEXP _BCsindexRCFS_index_to_height(SEXP cu_indexSEXP, SEXP iageSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP, SEXP piSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_index_to_height(SEXP cu_indexSEXP, SEXP iageSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP, SEXP piSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -97,7 +97,7 @@ END_RCPP
 }
 // Sindex_VersionNumber
 short int Sindex_VersionNumber();
-RcppExport SEXP _BCsindexRCFS_Sindex_VersionNumber() {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_VersionNumber() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -107,7 +107,7 @@ END_RCPP
 }
 // Sindex_FirstSpecies
 short int Sindex_FirstSpecies();
-RcppExport SEXP _BCsindexRCFS_Sindex_FirstSpecies() {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_FirstSpecies() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -117,7 +117,7 @@ END_RCPP
 }
 // Sindex_NextSpecies
 short int Sindex_NextSpecies(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_NextSpecies(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_NextSpecies(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -128,7 +128,7 @@ END_RCPP
 }
 // Sindex_SpecUse
 short int Sindex_SpecUse(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_SpecUse(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_SpecUse(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -139,7 +139,7 @@ END_RCPP
 }
 // Sindex_DefCurve
 short int Sindex_DefCurve(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_DefCurve(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_DefCurve(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -150,7 +150,7 @@ END_RCPP
 }
 // Sindex_DefGICurve
 short int Sindex_DefGICurve(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_DefGICurve(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_DefGICurve(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -161,7 +161,7 @@ END_RCPP
 }
 // Sindex_DefCurveEst
 short int Sindex_DefCurveEst(short int sp_index, short int estab);
-RcppExport SEXP _BCsindexRCFS_Sindex_DefCurveEst(SEXP sp_indexSEXP, SEXP estabSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_DefCurveEst(SEXP sp_indexSEXP, SEXP estabSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -173,7 +173,7 @@ END_RCPP
 }
 // Sindex_FirstCurve
 short int Sindex_FirstCurve(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_FirstCurve(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_FirstCurve(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -184,7 +184,7 @@ END_RCPP
 }
 // Sindex_NextCurve
 short int Sindex_NextCurve(short int sp_index, short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_NextCurve(SEXP sp_indexSEXP, SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_NextCurve(SEXP sp_indexSEXP, SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -196,7 +196,7 @@ END_RCPP
 }
 // Sindex_CurveUse
 short int Sindex_CurveUse(short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_CurveUse(SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_CurveUse(SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -207,7 +207,7 @@ END_RCPP
 }
 // Sindex_CurveToSpecies
 short int Sindex_CurveToSpecies(short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_CurveToSpecies(SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_CurveToSpecies(SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -218,7 +218,7 @@ END_RCPP
 }
 // Sindex_SITOSI
 double Sindex_SITOSI(short int sp_index1, double site, short int sp_index2);
-RcppExport SEXP _BCsindexRCFS_Sindex_SITOSI(SEXP sp_index1SEXP, SEXP siteSEXP, SEXP sp_index2SEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_SITOSI(SEXP sp_index1SEXP, SEXP siteSEXP, SEXP sp_index2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -231,7 +231,7 @@ END_RCPP
 }
 // Sindex_SpecCode
 std::string Sindex_SpecCode(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_SpecCode(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_SpecCode(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -242,7 +242,7 @@ END_RCPP
 }
 // Sindex_SpecName
 std::string Sindex_SpecName(short int sp_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_SpecName(SEXP sp_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_SpecName(SEXP sp_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -253,7 +253,7 @@ END_RCPP
 }
 // Sindex_CurveName
 std::string Sindex_CurveName(short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_CurveName(SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_CurveName(SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -264,7 +264,7 @@ END_RCPP
 }
 // Sindex_CurveSource
 std::string Sindex_CurveSource(short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_CurveSource(SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_CurveSource(SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -275,7 +275,7 @@ END_RCPP
 }
 // Sindex_CurveNotes
 std::string Sindex_CurveNotes(short int cu_index);
-RcppExport SEXP _BCsindexRCFS_Sindex_CurveNotes(SEXP cu_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_Sindex_CurveNotes(SEXP cu_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -286,7 +286,7 @@ END_RCPP
 }
 // si_y2bh
 double si_y2bh(short int cu_index, double site_index);
-RcppExport SEXP _BCsindexRCFS_si_y2bh(SEXP cu_indexSEXP, SEXP site_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_si_y2bh(SEXP cu_indexSEXP, SEXP site_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -298,7 +298,7 @@ END_RCPP
 }
 // si_y2bh05
 double si_y2bh05(short int cu_index, double site_index);
-RcppExport SEXP _BCsindexRCFS_si_y2bh05(SEXP cu_indexSEXP, SEXP site_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_si_y2bh05(SEXP cu_indexSEXP, SEXP site_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -310,7 +310,7 @@ END_RCPP
 }
 // species_map
 short int species_map(std::string sc);
-RcppExport SEXP _BCsindexRCFS_species_map(SEXP scSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_species_map(SEXP scSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -321,7 +321,7 @@ END_RCPP
 }
 // species_remap
 short int species_remap(std::string sc, char fiz);
-RcppExport SEXP _BCsindexRCFS_species_remap(SEXP scSEXP, SEXP fizSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_species_remap(SEXP scSEXP, SEXP fizSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -333,7 +333,7 @@ END_RCPP
 }
 // sindex_ext_set_dll
 bool sindex_ext_set_dll(std::string dll_path);
-RcppExport SEXP _BCsindexRCFS_sindex_ext_set_dll(SEXP dll_pathSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_set_dll(SEXP dll_pathSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -344,7 +344,7 @@ END_RCPP
 }
 // sindex_ext_clear_dll
 void sindex_ext_clear_dll();
-RcppExport SEXP _BCsindexRCFS_sindex_ext_clear_dll() {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_clear_dll() {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     sindex_ext_clear_dll();
@@ -353,7 +353,7 @@ END_RCPP
 }
 // sindex_ext_is_loaded
 bool sindex_ext_is_loaded();
-RcppExport SEXP _BCsindexRCFS_sindex_ext_is_loaded() {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_is_loaded() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -363,7 +363,7 @@ END_RCPP
 }
 // sindex_ext_dll_path
 std::string sindex_ext_dll_path();
-RcppExport SEXP _BCsindexRCFS_sindex_ext_dll_path() {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_dll_path() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -373,7 +373,7 @@ END_RCPP
 }
 // sindex_ext_ht2si
 double sindex_ext_ht2si(int curve_index, double age, int age_type, double height, int est_type);
-RcppExport SEXP _BCsindexRCFS_sindex_ext_ht2si(SEXP curve_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP heightSEXP, SEXP est_typeSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_ht2si(SEXP curve_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP heightSEXP, SEXP est_typeSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -388,7 +388,7 @@ END_RCPP
 }
 // sindex_ext_si2ht
 double sindex_ext_si2ht(int curve_index, double age, int age_type, double site_index, double y2bh);
-RcppExport SEXP _BCsindexRCFS_sindex_ext_si2ht(SEXP curve_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_si2ht(SEXP curve_indexSEXP, SEXP ageSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -403,7 +403,7 @@ END_RCPP
 }
 // sindex_ext_y2bh
 double sindex_ext_y2bh(int curve_index, double site_index);
-RcppExport SEXP _BCsindexRCFS_sindex_ext_y2bh(SEXP curve_indexSEXP, SEXP site_indexSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_y2bh(SEXP curve_indexSEXP, SEXP site_indexSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -415,7 +415,7 @@ END_RCPP
 }
 // sindex_ext_sc2si
 double sindex_ext_sc2si(int species_index, std::string site_class, std::string fiz);
-RcppExport SEXP _BCsindexRCFS_sindex_ext_sc2si(SEXP species_indexSEXP, SEXP site_classSEXP, SEXP fizSEXP) {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_sc2si(SEXP species_indexSEXP, SEXP site_classSEXP, SEXP fizSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -428,7 +428,7 @@ END_RCPP
 }
 // sindex_ext_version_number
 int sindex_ext_version_number();
-RcppExport SEXP _BCsindexRCFS_sindex_ext_version_number() {
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_version_number() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -438,46 +438,46 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_BCsindexRCFS_age_to_age", (DL_FUNC) &_BCsindexRCFS_age_to_age, 5},
-    {"_BCsindexRCFS_fiz_check", (DL_FUNC) &_BCsindexRCFS_fiz_check, 1},
-    {"_BCsindexRCFS_height_to_index", (DL_FUNC) &_BCsindexRCFS_height_to_index, 5},
-    {"_BCsindexRCFS_class_to_index", (DL_FUNC) &_BCsindexRCFS_class_to_index, 3},
-    {"_BCsindexRCFS_index_to_age", (DL_FUNC) &_BCsindexRCFS_index_to_age, 5},
-    {"_BCsindexRCFS_index_to_height", (DL_FUNC) &_BCsindexRCFS_index_to_height, 6},
-    {"_BCsindexRCFS_Sindex_VersionNumber", (DL_FUNC) &_BCsindexRCFS_Sindex_VersionNumber, 0},
-    {"_BCsindexRCFS_Sindex_FirstSpecies", (DL_FUNC) &_BCsindexRCFS_Sindex_FirstSpecies, 0},
-    {"_BCsindexRCFS_Sindex_NextSpecies", (DL_FUNC) &_BCsindexRCFS_Sindex_NextSpecies, 1},
-    {"_BCsindexRCFS_Sindex_SpecUse", (DL_FUNC) &_BCsindexRCFS_Sindex_SpecUse, 1},
-    {"_BCsindexRCFS_Sindex_DefCurve", (DL_FUNC) &_BCsindexRCFS_Sindex_DefCurve, 1},
-    {"_BCsindexRCFS_Sindex_DefGICurve", (DL_FUNC) &_BCsindexRCFS_Sindex_DefGICurve, 1},
-    {"_BCsindexRCFS_Sindex_DefCurveEst", (DL_FUNC) &_BCsindexRCFS_Sindex_DefCurveEst, 2},
-    {"_BCsindexRCFS_Sindex_FirstCurve", (DL_FUNC) &_BCsindexRCFS_Sindex_FirstCurve, 1},
-    {"_BCsindexRCFS_Sindex_NextCurve", (DL_FUNC) &_BCsindexRCFS_Sindex_NextCurve, 2},
-    {"_BCsindexRCFS_Sindex_CurveUse", (DL_FUNC) &_BCsindexRCFS_Sindex_CurveUse, 1},
-    {"_BCsindexRCFS_Sindex_CurveToSpecies", (DL_FUNC) &_BCsindexRCFS_Sindex_CurveToSpecies, 1},
-    {"_BCsindexRCFS_Sindex_SITOSI", (DL_FUNC) &_BCsindexRCFS_Sindex_SITOSI, 3},
-    {"_BCsindexRCFS_Sindex_SpecCode", (DL_FUNC) &_BCsindexRCFS_Sindex_SpecCode, 1},
-    {"_BCsindexRCFS_Sindex_SpecName", (DL_FUNC) &_BCsindexRCFS_Sindex_SpecName, 1},
-    {"_BCsindexRCFS_Sindex_CurveName", (DL_FUNC) &_BCsindexRCFS_Sindex_CurveName, 1},
-    {"_BCsindexRCFS_Sindex_CurveSource", (DL_FUNC) &_BCsindexRCFS_Sindex_CurveSource, 1},
-    {"_BCsindexRCFS_Sindex_CurveNotes", (DL_FUNC) &_BCsindexRCFS_Sindex_CurveNotes, 1},
-    {"_BCsindexRCFS_si_y2bh", (DL_FUNC) &_BCsindexRCFS_si_y2bh, 2},
-    {"_BCsindexRCFS_si_y2bh05", (DL_FUNC) &_BCsindexRCFS_si_y2bh05, 2},
-    {"_BCsindexRCFS_species_map", (DL_FUNC) &_BCsindexRCFS_species_map, 1},
-    {"_BCsindexRCFS_species_remap", (DL_FUNC) &_BCsindexRCFS_species_remap, 2},
-    {"_BCsindexRCFS_sindex_ext_set_dll", (DL_FUNC) &_BCsindexRCFS_sindex_ext_set_dll, 1},
-    {"_BCsindexRCFS_sindex_ext_clear_dll", (DL_FUNC) &_BCsindexRCFS_sindex_ext_clear_dll, 0},
-    {"_BCsindexRCFS_sindex_ext_is_loaded", (DL_FUNC) &_BCsindexRCFS_sindex_ext_is_loaded, 0},
-    {"_BCsindexRCFS_sindex_ext_dll_path", (DL_FUNC) &_BCsindexRCFS_sindex_ext_dll_path, 0},
-    {"_BCsindexRCFS_sindex_ext_ht2si", (DL_FUNC) &_BCsindexRCFS_sindex_ext_ht2si, 5},
-    {"_BCsindexRCFS_sindex_ext_si2ht", (DL_FUNC) &_BCsindexRCFS_sindex_ext_si2ht, 5},
-    {"_BCsindexRCFS_sindex_ext_y2bh", (DL_FUNC) &_BCsindexRCFS_sindex_ext_y2bh, 2},
-    {"_BCsindexRCFS_sindex_ext_sc2si", (DL_FUNC) &_BCsindexRCFS_sindex_ext_sc2si, 3},
-    {"_BCsindexRCFS_sindex_ext_version_number", (DL_FUNC) &_BCsindexRCFS_sindex_ext_version_number, 0},
+    {"_CanWestSiteIndexCFS_age_to_age", (DL_FUNC) &_CanWestSiteIndexCFS_age_to_age, 5},
+    {"_CanWestSiteIndexCFS_fiz_check", (DL_FUNC) &_CanWestSiteIndexCFS_fiz_check, 1},
+    {"_CanWestSiteIndexCFS_height_to_index", (DL_FUNC) &_CanWestSiteIndexCFS_height_to_index, 5},
+    {"_CanWestSiteIndexCFS_class_to_index", (DL_FUNC) &_CanWestSiteIndexCFS_class_to_index, 3},
+    {"_CanWestSiteIndexCFS_index_to_age", (DL_FUNC) &_CanWestSiteIndexCFS_index_to_age, 5},
+    {"_CanWestSiteIndexCFS_index_to_height", (DL_FUNC) &_CanWestSiteIndexCFS_index_to_height, 6},
+    {"_CanWestSiteIndexCFS_Sindex_VersionNumber", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_VersionNumber, 0},
+    {"_CanWestSiteIndexCFS_Sindex_FirstSpecies", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_FirstSpecies, 0},
+    {"_CanWestSiteIndexCFS_Sindex_NextSpecies", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_NextSpecies, 1},
+    {"_CanWestSiteIndexCFS_Sindex_SpecUse", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_SpecUse, 1},
+    {"_CanWestSiteIndexCFS_Sindex_DefCurve", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_DefCurve, 1},
+    {"_CanWestSiteIndexCFS_Sindex_DefGICurve", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_DefGICurve, 1},
+    {"_CanWestSiteIndexCFS_Sindex_DefCurveEst", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_DefCurveEst, 2},
+    {"_CanWestSiteIndexCFS_Sindex_FirstCurve", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_FirstCurve, 1},
+    {"_CanWestSiteIndexCFS_Sindex_NextCurve", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_NextCurve, 2},
+    {"_CanWestSiteIndexCFS_Sindex_CurveUse", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_CurveUse, 1},
+    {"_CanWestSiteIndexCFS_Sindex_CurveToSpecies", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_CurveToSpecies, 1},
+    {"_CanWestSiteIndexCFS_Sindex_SITOSI", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_SITOSI, 3},
+    {"_CanWestSiteIndexCFS_Sindex_SpecCode", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_SpecCode, 1},
+    {"_CanWestSiteIndexCFS_Sindex_SpecName", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_SpecName, 1},
+    {"_CanWestSiteIndexCFS_Sindex_CurveName", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_CurveName, 1},
+    {"_CanWestSiteIndexCFS_Sindex_CurveSource", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_CurveSource, 1},
+    {"_CanWestSiteIndexCFS_Sindex_CurveNotes", (DL_FUNC) &_CanWestSiteIndexCFS_Sindex_CurveNotes, 1},
+    {"_CanWestSiteIndexCFS_si_y2bh", (DL_FUNC) &_CanWestSiteIndexCFS_si_y2bh, 2},
+    {"_CanWestSiteIndexCFS_si_y2bh05", (DL_FUNC) &_CanWestSiteIndexCFS_si_y2bh05, 2},
+    {"_CanWestSiteIndexCFS_species_map", (DL_FUNC) &_CanWestSiteIndexCFS_species_map, 1},
+    {"_CanWestSiteIndexCFS_species_remap", (DL_FUNC) &_CanWestSiteIndexCFS_species_remap, 2},
+    {"_CanWestSiteIndexCFS_sindex_ext_set_dll", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_set_dll, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_clear_dll", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_clear_dll, 0},
+    {"_CanWestSiteIndexCFS_sindex_ext_is_loaded", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_is_loaded, 0},
+    {"_CanWestSiteIndexCFS_sindex_ext_dll_path", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_dll_path, 0},
+    {"_CanWestSiteIndexCFS_sindex_ext_ht2si", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_ht2si, 5},
+    {"_CanWestSiteIndexCFS_sindex_ext_si2ht", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_si2ht, 5},
+    {"_CanWestSiteIndexCFS_sindex_ext_y2bh", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_y2bh, 2},
+    {"_CanWestSiteIndexCFS_sindex_ext_sc2si", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_sc2si, 3},
+    {"_CanWestSiteIndexCFS_sindex_ext_version_number", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_version_number, 0},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_BCsindexRCFS(DllInfo *dll) {
+RcppExport void R_init_CanWestSiteIndexCFS(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

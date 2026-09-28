@@ -1,12 +1,12 @@
-# BCsindexRCFS Wrapper Examples
+# CanWestSiteIndexCFS Wrapper Examples
 
-This guide summarizes the modern convenience wrappers in `BCsindexRCFS` and
+This guide summarizes the modern convenience wrappers in `CanWestSiteIndexCFS` and
 how they fit into common forestry analysis workflows.
 
 ## Core wrapper usage
 
 ```r
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 
 # Height + age -> Site index
 ht_age_to_si(age = 50, age_type = 1, height = 30, species = "SW")
@@ -39,15 +39,15 @@ species_name("SW")
 ## Run packaged examples
 
 ```sh
-Rscript -e "library(BCsindexRCFS); source(system.file('examples','wrappers_example.R', package='BCsindexRCFS'))"
-Rscript -e "library(BCsindexRCFS); source(system.file('examples','psp_workflow_example.R', package='BCsindexRCFS'))"
-Rscript -e "library(BCsindexRCFS); source(system.file('examples','treelist_workflow_example.R', package='BCsindexRCFS'))"
+Rscript -e "library(CanWestSiteIndexCFS); source(system.file('examples','wrappers_example.R', package='CanWestSiteIndexCFS'))"
+Rscript -e "library(CanWestSiteIndexCFS); source(system.file('examples','psp_workflow_example.R', package='CanWestSiteIndexCFS'))"
+Rscript -e "library(CanWestSiteIndexCFS); source(system.file('examples','treelist_workflow_example.R', package='CanWestSiteIndexCFS'))"
 ```
 
 ## Additional documentation
 
 ```r
-vignette("workflow-integration", package = "BCsindexRCFS")
-vignette("legacy-interfaces", package = "BCsindexRCFS")
+vignette("workflow-integration", package = "CanWestSiteIndexCFS")
+vignette("legacy-interfaces", package = "CanWestSiteIndexCFS")
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: "Site Tree Workflow: Full API Walkthrough"
-author: "BCsindexRCFS Contributors"
+author: "CanWestSiteIndexCFS Contributors"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Site Tree Workflow: Full API Walkthrough}
@@ -10,7 +10,7 @@ vignette: >
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment = "#>")
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 ```
 
 ## Overview
@@ -27,7 +27,7 @@ the stump (total age), others at breast height (BH age).
 > **Site tree requirement.** Height and age must come from a *suitable site
 > tree* — a vigorous dominant or co-dominant tree with a full, undamaged crown
 > and a straight stem free of disease, suppression, or open-grown influence.
-> See `?BCsindexRCFS` for the full BC definition. This package does not select
+> See `?CanWestSiteIndexCFS` for the full BC definition. This package does not select
 > site trees from a general treelist.
 
 ---

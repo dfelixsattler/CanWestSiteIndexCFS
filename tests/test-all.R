@@ -1,2 +1,2 @@
 library(testthat)
-test_check("BCsindexRCFS")
+test_check("CanWestSiteIndexCFS")

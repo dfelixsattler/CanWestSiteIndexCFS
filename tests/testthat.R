@@ -1,5 +1,5 @@
 library(testthat)
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 
-test_check("BCsindexRCFS")
+test_check("CanWestSiteIndexCFS")
 

@@ -1,0 +1,91 @@
+#' CanWestSiteIndexCFS: Site Index Tools for Western Canada
+#' @useDynLib CanWestSiteIndexCFS, .registration=TRUE
+#' @importFrom Rcpp evalCpp
+#' @importFrom stats aggregate optimize sd uniroot
+#' @importFrom utils read.csv write.csv
+#' @details
+#'   The package provides three broadly independent groups of tools.
+#'
+#'   \strong{British Columbia (Sindex / SiteTools).} Functions prefixed
+#'   \code{si_}, \code{ht_}, \code{age_} and \code{species_} wrap the
+#'   BC Ministry of Forests \emph{Sindex} C library: height-age curve
+#'   evaluation, site index / height / age inversion, years-to-breast-height,
+#'   curve metadata and species code remapping. The SiteTools external DLL
+#'   backend is published by the Government of British Columbia and is
+#'   available at:
+#'   https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/forest-inventory/field-forms-and-software/software-download#SiteTools
+#'
+#'   \strong{Alberta (GYPSY).} Functions prefixed \code{ab_} implement the
+#'   top-height / site index sub-models of the Alberta Growth and Yield
+#'   Projection System (Huang et al. 2009): \code{\link{ab_si_to_height}},
+#'   \code{\link{ab_height_to_si}}, \code{\link{ab_si_bh_to_total}} and
+#'   \code{\link{ab_si_total_to_bh}}.
+#'
+#'   \strong{Ecological site index estimation.} Species conversion equations
+#'   for Alberta and Saskatchewan (\code{\link{ab_si_to_si}}), site index by
+#'   natural subregion and ecosite or edatope
+#'   (\code{\link{si_from_ecosite}}, \code{\link{si_from_edatope}}), and
+#'   published ecosite-guide site index tables for British Columbia, Alberta,
+#'   Saskatchewan and Manitoba (\code{\link{si_from_ecosite_guide}}).
+#'
+#' @references
+#'   Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index using ecosite
+#'   and edatope in Alberta and Saskatchewan. MGM Research Note #2019-1.
+#'   University of Alberta, Edmonton, Alberta.
+#'
+#'   Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion equations for
+#'   Alberta and Saskatchewan. MGM Research Note #2019-2. University of
+#'   Alberta, Edmonton, Alberta.
+#'
+#'   Comeau, P.G. 2020. Estimating site index using ecosite guides for Western
+#'   Canada. MGM Research Note #2020-1. University of Alberta, Edmonton,
+#'   Alberta.
+#'
+#'   Huang, S., Meng, S.X., and Yang, Y. 2009. A Growth and Yield Projection
+#'   System (GYPSY) for Natural and Post-harvest Stands in Alberta. Alberta
+#'   Sustainable Resource Development Technical Report T/216.
+#'
+#' @section Definition -- Site Index and Suitable Site Trees:
+#'   For a given species, site index is defined in BC as the height of the
+#'   largest diameter (at breast height) site tree on a 0.01 ha plot at 50
+#'   years, breast height age, provided the tree meets all the criteria of a
+#'   suitable site tree. A minimum of seven (7) plots, containing suitable site
+#'   trees, in each homogeneous stand stratum is recommended.
+#'
+#'   A suitable site tree, for a particular species, reflects the site's full,
+#'   inherent height-growth potential. That is, a suitable site tree is a
+#'   vigorous dominant or co-dominant tree, with a full crown and a straight,
+#'   disease-free, undamaged stem. It cannot be a wolf, open-grown, or veteran
+#'   tree. Furthermore, it must be free from historic influences affecting the
+#'   expression of inherent site potential. This includes both negative effects
+#'   (suppression, repression, damage, disease, etc.) and positive effects
+#'   (fertilization, genetic improvement, etc.).
+#'
+#'   Reference: BC Ministry of Forests, Lands, Natural Resource Operations and
+#'   Rural Development (2009). \emph{SIBEC Sampling and Data Standards}.
+#'   \url{http://www2.gov.bc.ca/assets/gov/environment/research-monitoring-and-reporting/research/sibec-documents/standards.pdf}
+#'
+#' @keywords package
+#' @seealso
+#'   See `vignette("workflow-integration", package = "CanWestSiteIndexCFS")` for
+#'   practical PSP and treelist workflow examples.
+#'
+#'   See `vignette("legacy-interfaces", package = "CanWestSiteIndexCFS")` for a complete
+#'   reference of legacy function mappings and migration guidance.
+"_PACKAGE"
+
+# Track one-time legacy interface warnings for the current R session.
+.sindexr_legacy_warned <- new.env(parent = emptyenv())
+
+sindex_warn_legacy_once <- function(old_name, new_name) {
+	key <- paste0(old_name, "->", new_name)
+	if (!exists(key, envir = .sindexr_legacy_warned, inherits = FALSE)) {
+		assign(key, TRUE, envir = .sindexr_legacy_warned)
+		warning(
+			sprintf("%s() is a legacy compatibility interface; prefer %s() for new code.", old_name, new_name),
+			call. = FALSE
+		)
+	}
+	invisible(NULL)
+}
+

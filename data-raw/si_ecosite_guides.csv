@@ -1,0 +1,638 @@
+jurisdiction,guide,unit,ecosite,ecosite_name,smr,snr,species,si
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,101,Soopolallie-Step moss,3-5,c-d,Fa,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,101,Soopolallie-Step moss,3-5,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,101,Soopolallie-Step moss,3-5,c-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,101,Soopolallie-Step moss,3-5,c-d,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,103,SwPl-Soopolallie-Toad-flax,3-3,b-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,103,SwPl-Soopolallie-Toad-flax,3-3,b-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,103,SwPl-Soopolallie-Toad-flax,3-3,b-d,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,104,Sb-Labrador tea-Stepmoss,3-6,a-b,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,104,Sb-Labrador tea-Stepmoss,3-6,a-b,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,104,Sb-Labrador tea-Stepmoss,3-6,a-b,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,104,Sb-Labrador tea-Stepmoss,3-6,a-b,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,110,Sw-Currant-Horsetail,5-6,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,110,Sw-Currant-Horsetail,5-6,c-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,111,Sw-Mountain alder-Horsetail,5-6,e-e,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,111,Sw-Mountain alder-Horsetail,5-6,e-e,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,112,AcbSw-Mountain alder-Dogwood,5-6,e-e,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSdk,112,AcbSw-Mountain alder-Dogwood,5-6,e-e,Pb,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,101,Sw-Lingonberry-Step moss,3-4,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,101,Sw-Lingonberry-Step moss,3-4,c-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,101,Sw-Lingonberry-Step moss,3-4,c-d,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,101,Sw-Lingonberry-Step moss,3-4,c-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-4,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-4,c-d,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-4,c-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104a,Sb-Labrador tea-Step moss,3-4,a-b,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104a,Sb-Labrador tea-Step moss,3-4,a-b,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104a,Sb-Labrador tea-Step moss,3-4,a-b,Sb,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104b,Sb-Labrador tea-Step moss,5-6,a-b,Pl,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104b,Sb-Labrador tea-Step moss,5-6,a-b,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,104b,Sb-Labrador tea-Step moss,5-6,a-b,Sb,6.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,110,Sw-Currant-Horsetail,5-6,c-d,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,110,Sw-Currant-Horsetail,5-6,c-d,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,110,Sw-Currant-Horsetail,5-6,c-d,Aw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,111,Sw-Mountain alder-Horsetail,5-6,d-e,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,111,Sw-Mountain alder-Horsetail,5-6,d-e,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,112,AcbSw-Mountain alder-Dogwood,5-6,d-e,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmk,112,AcbSw-Mountain alder-Dogwood,5-6,d-e,Pb,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,101,Sw-Trailing raspberry-Step moss,3-5,c-d,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,101,Sw-Trailing raspberry-Step moss,3-5,c-d,Sw,21.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,101,Sw-Trailing raspberry-Step moss,3-5,c-d,Aw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,102,Pl-Kinnikinnick-Lingonberry,1-2,a-c,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,104,Sb-Labrador tea-Step moss,3-6,a-b,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,104,Sb-Labrador tea-Step moss,3-6,a-b,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,104,Sb-Labrador tea-Step moss,3-6,a-b,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,104,Sb-Labrador tea-Step moss,3-6,a-b,Aw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,110,Sw-Oak fern-Sarsaparilla,4-5,d-d,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,110,Sw-Oak fern-Sarsaparilla,4-5,d-d,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,110,Sw-Oak fern-Sarsaparilla,4-5,d-d,Sb,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,110,Sw-Oak fern-Sarsaparilla,4-5,d-d,Aw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,111,Sw-Currant-Horsetail,5-6,c-d,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,111,Sw-Currant-Horsetail,5-6,c-d,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,111,Sw-Currant-Horsetail,5-6,c-d,Aw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,111,Sw-Currant-Horsetail,5-6,c-d,Pb,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,112,AcbSw-Mountain alder-Dogwood,5-6,d-e,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSmw,112,AcbSw-Mountain alder-Dogwood,5-6,d-e,Pb,21.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,101,Sw-Huckleberry-Feathermoss,3-4,b-c,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,101,Sw-Huckleberry-Feathermoss,3-4,b-c,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,101,Sw-Huckleberry-Feathermoss,3-4,b-c,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,102,Pl-Lingonberry-Reindeer lichen,1-2,a-c,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,102,Pl-Lingonberry-Reindeer lichen,1-2,a-c,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,103,SwPl-Soopolallie-Showy aster,3-3,b-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,103,SwPl-Soopolallie-Showy aster,3-3,b-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,103,SwPl-Soopolallie-Showy aster,3-3,b-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,104,Sb-Huckleberry-Lingonberry,3-5,a-b,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,104,Sb-Huckleberry-Lingonberry,3-5,a-b,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,104,Sb-Huckleberry-Lingonberry,3-5,a-b,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,110,Sw-Currant-Horsetail,4-5,c-d,Pl,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,110,Sw-Currant-Horsetail,4-5,c-d,Sw,18.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,110,Sw-Currant-Horsetail,4-5,c-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,110,Sw-Currant-Horsetail,4-5,c-d,Pb,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk1,111,Sb-Horstail-Step moss,5-6,c-d,Sb,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,101,SwBl-Huckleberry-Feathermoss,3-4,b-c,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,101,SwBl-Huckleberry-Feathermoss,3-4,b-c,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,101,SwBl-Huckleberry-Feathermoss,3-4,b-c,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,102,Pl-Lingonberry-Reindeer lichen,1-2,a-c,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,102,Pl-Lingonberry-Reindeer lichen,1-2,a-c,Sw,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,103,SwPl-Soopolallie-Fuzzy-spiked wildrye,3-3,b-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,104,Sb-Huckleberry-Lingonberry,3-6,a-b,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,104,Sb-Huckleberry-Lingonberry,3-6,a-b,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,104,Sb-Huckleberry-Lingonberry,3-6,a-b,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,110,Sw-Currant-Bluebells,4-5,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,110,Sw-Currant-Bluebells,4-5,c-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,110,Sw-Currant-Bluebells,4-5,c-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,110,Sw-Currant-Bluebells,4-5,c-d,Pb,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,111,Sw-Currant-Horsetail,5-6,c-d,Pl,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,111,Sw-Currant-Horsetail,5-6,c-d,Sw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk2,111,Sw-Currant-Horsetail,5-6,c-d,Aw,15.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,101,SwBl-Huckleberry-Feathermoss,3-4,c-d,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,101,SwBl-Huckleberry-Feathermoss,3-4,c-d,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,101,SwBl-Huckleberry-Feathermoss,3-4,c-d,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,102,Pl-Crowberry-Lingonberry,1-2,a-c,Pl,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,102,Pl-Crowberry-Lingonberry,1-2,a-c,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,103,Sb-Huckleberry-Lingonberry,3-5,a-b,Pl,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,103,Sb-Huckleberry-Lingonberry,3-5,a-b,Sb,9.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,110,Sw-Currant-Horsetail,5-6,c-d,Pl,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,110,Sw-Currant-Horsetail,5-6,c-d,Sw,12.0
+BC,BC Ministry of Forests 2013 (SIBEC 2013 approximation),BWBSwk3,111,"Sb-Horsetail-Step moss poor, b=poor, c=medium, d=rich, e=very",6,a-b,Sb,9.0
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,b,bearberry/lichen,2-4,a-b,Pl,13.2
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,c,hairy wild rye,3-5,b-d,Aw,14.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,c,hairy wild rye,3-5,b-d,Sw,17.6
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,c,hairy wild rye,3-5,b-d,Sb,9.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,c,hairy wild rye,3-5,b-d,Pl,18.4
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,d,Labrador tea-mesic,4-6,a-b,Aw,15.9
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,d,Labrador tea-mesic,4-6,a-b,Sw,12.6
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,d,Labrador tea-mesic,4-6,a-b,Sb,12.8
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,d,Labrador tea-mesic,4-6,a-b,Fb,11.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,d,Labrador tea-mesic,4-6,a-b,Pl,15.3
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Aw,17.7
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Sw,17.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Sb,14.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Pb,14.9
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Fb,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,e,low-bush cranberry,4-6,b-c,Pl,17.7
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Aw,19.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Sw,18.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Sb,13.6
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Pb,18.8
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Pl,19.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,f,bracted honeysuckle,5-7,d-e,Fa,15.4
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,h,labrador tea-subhygric,6-8,a-b,Aw,18.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,h,labrador tea-subhygric,6-8,a-b,Sw,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,h,labrador tea-subhygric,6-8,a-b,Sb,11.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,h,labrador tea-subhygric,6-8,a-b,Pb,7.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,h,labrador tea-subhygric,6-8,a-b,Pl,15.0
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,i,horsetail,6-7,b-e,Aw,23.1
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,i,horsetail,6-7,b-e,Sw,15.8
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,i,horsetail,6-7,b-e,Sb,15.5
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,i,horsetail,6-7,b-e,Pb,25.8
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,i,horsetail,6-7,b-e,Pl,16.7
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,j,Labrador tea/horsetail,7-8,b-d,Sw,10.8
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,j,Labrador tea/horsetail,7-8,b-d,Sb,9.9
+AB,Beckingham et al. 1996a (west-central Alberta),Lower Foothills,k,bog,7-9,a-c,Sb,9.5
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,b,bearberry/lichen,2-4,a-b,Pl,11.4
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,c,hairy wild rye,3-5,b-d,Aw,15.6
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,c,hairy wild rye,3-5,b-d,Sw,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,c,hairy wild rye,3-5,b-d,Sb,15.0
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,c,hairy wild rye,3-5,b-d,Pl,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,d,Labrador tea-mesic,4-6,a-b,Sw,10.5
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,d,Labrador tea-mesic,4-6,a-b,Sb,9.7
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,d,Labrador tea-mesic,4-6,a-b,Pl,12.9
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,d,Labrador tea-mesic,4-6,a-b,Fa,8.5
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,e,tall billberry/arnica,4-6,b-d,Aw,17.8
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,e,tall billberry/arnica,4-6,b-d,Sw,11.6
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,e,tall billberry/arnica,4-6,b-d,Sb,11.8
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,e,tall billberry/arnica,4-6,b-d,Pl,14.4
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,e,tall billberry/arnica,4-6,b-d,Fa,10.8
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Aw,17.5
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Sw,16.1
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Sb,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Pb,18.8
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Pl,16.9
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,f,bracted honeysuckle,5-6,d-e,Fa,12.5
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,h,labrador tea-subhygric,5-8,a-c,Sb,10.3
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,h,labrador tea-subhygric,5-8,a-c,Pl,14.7
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,h,labrador tea-subhygric,5-8,a-c,Fa,12.2
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,i,Labrador tea/horsetail,6-8,b-d,Sw,11.1
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,i,Labrador tea/horsetail,6-8,b-d,Sb,8.9
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,i,Labrador tea/horsetail,6-8,b-d,Pl,12.3
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,j,horsetail,6-8,c-e,Sw,15.0
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,j,horsetail,6-8,c-e,Sb,12.1
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,j,horsetail,6-8,c-e,Pl,14.2
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,j,horsetail,6-8,c-e,Fa,10.0
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,k,bog,7-9,a-b,Sb,8.2
+AB,Beckingham et al. 1996a (west-central Alberta),Upper Foothills,m,rich fen,7-9,c-e,Sb,8.4
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,b,bearberry,3-5,a-d,Sw,12.1
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,b,bearberry,3-5,a-d,Pl,10.9
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,c,hairy wild rye,4-6,b-d,Aw,12.2
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,c,hairy wild rye,4-6,b-d,Sw,12.8
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,c,hairy wild rye,4-6,b-d,Pl,19.6
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,d,dogwood,5-7,c-e,Aw,20.2
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,d,dogwood,5-7,c-e,Sw,14.3
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,d,dogwood,5-7,c-e,Pb,18.0
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,f,horsetail,6-8,c-e,Sw,6.2
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,f,horsetail,6-8,c-e,Sb,7.1
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,g,fen,7-9,c-e,Sw,5.3
+AB,Beckingham et al. 1996a (west-central Alberta),Montane,g,fen,7-9,c-e,Sb,4.0
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,b,bearberry/lichen,2-4,a-c,Pl,8.4
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,c,hairy wild rye,3-5,b-d,Pl,13.4
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,c,hairy wild rye,3-5,b-d,Se,8.3
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,d,rhodendron-mesic,4-6,a-d,Sb,6.9
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,d,rhodendron-mesic,4-6,a-d,Pl,10.8
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,d,rhodendron-mesic,4-6,a-d,Fa,10.8
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,d,rhodendron-mesic,4-6,a-d,Se,8.8
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,f,rhododendron- subhygric,5-8,a-d,Sb,7.5
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,f,rhododendron- subhygric,5-8,a-d,Pl,11.9
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,f,rhododendron- subhygric,5-8,a-d,Fa,12.2
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,f,rhododendron- subhygric,5-8,a-d,Se,16.2
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,g,horsetail,5-8,c-e,Pl,10.3
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,g,horsetail,5-8,c-e,Fa,7.7
+AB,Beckingham et al. 1996a (west-central Alberta),Subalpine,g,horsetail,5-8,c-e,Se,11.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,a,lichen,2-3,a-b,Pj,13.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,b,blueberry,3-4,b-c,Pj,14.3
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,b,blueberry,3-4,b-c,Aw,15.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,b,blueberry,3-4,b-c,Sw,17.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,b,blueberry,3-4,b-c,Bw,11.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,c,Labrador tea- mesic,4-6,c-c,Pj,14.3
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,c,Labrador tea- mesic,4-6,c-c,Sb,11.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Pj,15.2
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Aw,18.2
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Sw,16.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Bw,14.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Sb,15.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Pb,17.3
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,d,low-bush cranberry,4-6,b-d,Fb,14.0
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Aw,21.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Sw,17.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Bw,13.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Pb,19.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Fb,16.6
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,e,dogwood,5-6,c-d,Lt,15.2
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,f,horsetail,6-8,d-e,Aw,19.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,f,horsetail,6-8,d-e,Sw,16.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,f,horsetail,6-8,d-e,Pb,17.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,g,Labrador tea- subhygric,6-7,a-c,Pj,11.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,g,Labrador tea- subhygric,6-7,a-c,Sb,9.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,h,Labrador tea/horsetail,7,b-d,Sw,12.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,h,Labrador tea/horsetail,7,b-d,Sb,9.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Mixedwoods,h,Labrador tea/horsetail,7,b-d,Lt,17.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,a,bearberry,2-4,a-c,Pj,12.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,b,blueberry,3-5,b-d,Pj,14.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,b,blueberry,3-5,b-d,Aw,17.2
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,c,Labrador tea- mesic,4-6,a-c,Pj,14.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,c,Labrador tea- mesic,4-6,a-c,Sb,8.2
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,d,low-bush cranberry,4-6,b-d,Pj,12.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,d,low-bush cranberry,4-6,b-d,Aw,17.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,d,low-bush cranberry,4-6,b-d,Sw,15.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,d,low-bush cranberry,4-6,b-d,Bw,15.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,d,low-bush cranberry,4-6,b-d,Sb,13.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,e,fern,5-7,d-e,Sw,15.0
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,f,horsetail,6-8,c-e,Sw,16.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,g,Labrador tea- hygric,6-8,a-c,Pj,10.7
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,g,Labrador tea- hygric,6-8,a-c,Sb,11.3
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,i,poor fen,7-9,b-c,Sb,7.9
+AB,Beckingham and Archibald 1996 (northern Alberta),Boreal Highlands,j,rich fen,8-9,c-e,Lt,8.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,a,bearberry,2-4,a-c,Pl,12.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,b,Canada buffalo-berry,4-6,b-d,Aw,15.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,b,Canada buffalo-berry,4-6,b-d,Sw,15.0
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,c,Labrador tea-mesic,4-6,a-c,Sb,11.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,c,Labrador tea-mesic,4-6,a-c,Pl,9.3
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,d,horsetail,6-7,c-e,Sw,10.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,d,horsetail,6-7,c-e,Bw,17.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,d,horsetail,6-7,c-e,Pb,12.1
+AB,Beckingham and Archibald 1996 (northern Alberta),Subarctic,e,Labrador tea-hygric,6-8,a-c,Sb,6.5
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,a,bearberry,2-4,a-c,Pj,8.8
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,b,Canada buffalo-berry- green alder,3-6,b-d,Pj,10.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,b,Canada buffalo-berry- green alder,3-6,b-d,Sw,12.0
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,b,Canada buffalo-berry- green alder,3-6,b-d,Bw,10.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,c,Labrador tea-mesic,4-6,a-c,Sw,6.4
+AB,Beckingham and Archibald 1996 (northern Alberta),Canadian Shield,c,Labrador tea-mesic,4-6,a-c,Sb,16.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,a,lichen,2-3,a-b,Pj,14.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,b,blueberry,3-5,b-d,Pj,18.2
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,b,blueberry,3-5,b-d,Aw,18.3
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,b,blueberry,3-5,b-d,Sw,16.1
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,b,blueberry,3-5,b-d,Sb,15.8
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,c,Labrador tea-submesic,3-6,a-c,Pj,16.1
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,c,Labrador tea-submesic,3-6,a-c,Bw,9.2
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,c,Labrador tea-submesic,3-6,a-c,Sb,12.2
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Pj,18.6
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Aw,20.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Sw,19.7
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Bw,16.8
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Sb,14.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Pb,18.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,d,low-bush cranberry,4-6,b-d,Fb,18.5
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Aw,21.3
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Sw,18.5
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Bw,18.8
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Sb,13.6
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Pb,20.1
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,e,dogwood,5-7,c-e,Fb,16.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Aw,21.4
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Sw,23.6
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Bw,20.6
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Pb,22.3
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Mm,16.1
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,f,ostrich fern,5-7,d-e,Ew,15.8
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,g,Labrador tea-hygric,6-8,a-c,Pj,15.5
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,g,Labrador tea-hygric,6-8,a-c,Sw,10.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,g,Labrador tea-hygric,6-8,a-c,Sb,12.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,h,horsetail,6-7,b-d,Aw,19.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,h,horsetail,6-7,b-d,Sw,18.1
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,h,horsetail,6-7,b-d,Sb,14.3
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,h,horsetail,6-7,b-d,Pb,15.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,h,horsetail,6-7,b-d,Lt,23.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,j,bog,7-9,a-b,Sw,10.8
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,j,bog,7-9,a-b,Sb,8.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,j,bog,7-9,a-b,Pb,20.0
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,j,bog,7-9,a-b,Lt,12.3
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,k,poor fen,7-9,b-c,Sb,10.7
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,k,poor fen,7-9,b-c,Lt,13.2
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,l,"rich fen Edmonton, Alberta. Spec.",7-9,b-e,Sb,9.9
+SK,Beckingham et al. 1996b (Saskatchewan mid-boreal),Mid-Boreal Lowland and Upland Ecoregion,l,"rich fen Edmonton, Alberta. Spec.",7-9,b-e,Lt,13.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,1,jack pine/bearberry/lichen,d-mf,,Pj,7.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,2,jack pine-black spruce/lichen,md-vm,,Pj,9.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,2,jack pine-black spruce/lichen,md-vm,,Sb,7.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,2,jack pine-black spruce/lichen,md-vm,,Bw,8.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,3,white birch/ligonberry/lichen,md-mw,,Pj,10.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,3,white birch/ligonberry/lichen,md-mw,,Sb,5.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,3,white birch/ligonberry/lichen,md-mw,,Bw,7.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,4,black spruce/lingonberry/feathermoss,md-vm,,Pj,7.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,4,black spruce/lingonberry/feathermoss,md-vm,,Sb,5.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,4,black spruce/lingonberry/feathermoss,md-vm,,Bw,5.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,5,trembling aspen/prickly rose-twinflower,md-f,,Pj,12.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,5,trembling aspen/prickly rose-twinflower,md-f,,Pb,18.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,5,trembling aspen/prickly rose-twinflower,md-f,,Aw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,5,trembling aspen/prickly rose-twinflower,md-f,,Sw,12.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Pj,9.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Sb,10.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Bw,9.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Pb,9.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Aw,11.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,6,white birch - spruce/green alder,d-vm,,Sw,9.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,7,white birch - black spruce/lingonberry,d-vm,,Pj,11.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,7,white birch - black spruce/lingonberry,d-vm,,Sb,7.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,7,white birch - black spruce/lingonberry,d-vm,,Bw,7.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,8,white birch/river alder/ feathermoss,vm-vm,,Sb,8.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,8,white birch/river alder/ feathermoss,vm-vm,,Bw,9.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,9,black spruce treed bog,vm-w,,Sb,4.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,9,black spruce treed bog,vm-w,,Lt,7.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,10,Labrador tea shrubby bog,md-vw,,Sb,3.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,13,Tamarack treed fen,vm,,Lt,7.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,14,Labrador tea shrubby fen,vm,,Lt,15.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Taiga Shield Ecozone,16,Open fen vw=very wet. calculated following: Cieszewski et al 1993,mw,,Sb,5.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,1,sand heather - floccose tansy sand dune,md-mf,,Pj,8.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,1,sand heather - floccose tansy sand dune,md-mf,,Bw,11.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,2,lichen/felsenmeer - bedrock,d,,Sb,4.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,3,jack pine/blueberry/lichen,d-f,,Pj,9.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,3,jack pine/blueberry/lichen,d-f,,Sb,10.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,3,jack pine/blueberry/lichen,d-f,,Bw,6.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,3,jack pine/blueberry/lichen,d-f,,Aw,10.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,3,jack pine/blueberry/lichen,d-f,,Sw,8.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,4,jack pine-black spruce/feathermoss,md-vm,,Pj,10.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,4,jack pine-black spruce/feathermoss,md-vm,,Sb,4.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,4,jack pine-black spruce/feathermoss,md-vm,,Bw,7.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,4,jack pine-black spruce/feathermoss,md-vm,,Aw,13.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,5,jack pine-white birch/feathermoss,md-f,,Pj,11.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,5,jack pine-white birch/feathermoss,md-f,,Sb,11.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,5,jack pine-white birch/feathermoss,md-f,,Bw,10.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,5,jack pine-white birch/feathermoss,md-f,,Aw,13.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,5,jack pine-white birch/feathermoss,md-f,,Sw,9.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,6,jack pine-trembling aspen/green alder,md-vm,,Pj,12.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,6,jack pine-trembling aspen/green alder,md-vm,,Sb,12.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,6,jack pine-trembling aspen/green alder,md-vm,,Bw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,6,jack pine-trembling aspen/green alder,md-vm,,Aw,12.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,7,black spruce/blueberry/lichen,d-mm,,Pj,9.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,7,black spruce/blueberry/lichen,d-mm,,Sb,9.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,7,black spruce/blueberry/lichen,d-mm,,Bw,10.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,7,black spruce/blueberry/lichen,d-mm,,Aw,10.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,8,black spruce-white birch/lichen,md-vm,,Pj,8.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,8,black spruce-white birch/lichen,md-vm,,Sb,9.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,8,black spruce-white birch/lichen,md-vm,,Bw,10.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,8,black spruce-white birch/lichen,md-vm,,Aw,12.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Pj,9.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Sb,9.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Bw,9.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Pb,7.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Aw,9.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,9,black spruce-jack pine/feathermoss,md-m,,Lt,9.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,10,black spruce-white birch/feathermoss,d-vm,,Pj,9.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,10,black spruce-white birch/feathermoss,d-vm,,Sb,11.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,10,black spruce-white birch/feathermoss,d-vm,,Bw,10.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,10,black spruce-white birch/feathermoss,d-vm,,Sw,10.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Pj,6.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Sb,13.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Bw,9.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Aw,13.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Sw,8.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,11,white spruce-balsam fir/feathermoss,d-vf,,Fb,15.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,12,white spruce/crowberry/feathermoss,d-mm,,Pj,15.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,12,white spruce/crowberry/feathermoss,d-mm,,Sb,14.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,12,white spruce/crowberry/feathermoss,d-mm,,Bw,8.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,12,white spruce/crowberry/feathermoss,d-mm,,Aw,20.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,12,white spruce/crowberry/feathermoss,d-mm,,Sw,8.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,13,white birch-black spruce-trembling aspen,d-vm,,Pj,10.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,13,white birch-black spruce-trembling aspen,d-vm,,Sb,11.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,13,white birch-black spruce-trembling aspen,d-vm,,Bw,10.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,13,white birch-black spruce-trembling aspen,d-vm,,Aw,12.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,13,white birch-black spruce-trembling aspen,d-vm,,Sw,8.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,14,white birch/lingonberry-Labrador tea,md-vm,,Pj,11.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,14,white birch/lingonberry-Labrador tea,md-vm,,Sb,11.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,14,white birch/lingonberry-Labrador tea,md-vm,,Bw,10.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,14,white birch/lingonberry-Labrador tea,md-vm,,Aw,9.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,14,white birch/lingonberry-Labrador tea,md-vm,,Sw,8.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Pj,12.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Sb,13.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Bw,11.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Pb,9.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Aw,12.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,15,trembling aspen-white birch/green alder,md-f,,Sw,11.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,16,black spruce/balsam poplar/river alder swamp,vm-vw,,Sb,11.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,16,black spruce/balsam poplar/river alder swamp,vm-vw,,Bw,18.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,16,black spruce/balsam poplar/river alder swamp,vm-vw,,Pb,16.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,16,black spruce/balsam poplar/river alder swamp,vm-vw,,Lt,12.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,16,black spruce/balsam poplar/river alder swamp,vm-vw,,Fb,6.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,17,black spruce treed bog,vm-w,,Pj,9.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,17,black spruce treed bog,vm-w,,Sb,6.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,17,black spruce treed bog,vm-w,,Bw,9.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,17,black spruce treed bog,vm-w,,Lt,8.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,18,Labrador tea shrubby bog,vm-vw,,Pj,10.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,18,Labrador tea shrubby bog,vm-vw,,Sb,7.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,20,Open bog,mw-vw,,Sb,4.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,21,tamarack treed fen,mw-w,,Sb,6.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,21,tamarack treed fen,mw-w,,Lt,9.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,22,leatherleaf shrubby poor fen,vm-vw,,Sb,9.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,22,leatherleaf shrubby poor fen,vm-vw,,Lt,7.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,23,willow shrubby rich fen,f-vw,,Bw,11.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,23,willow shrubby rich fen,f-vw,,Lt,19.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,25,graminoid fen vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,mw-vw,,Sb,5.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Shield Ecozone,25,graminoid fen vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,mw-vw,,Lt,4.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,2,jack pine/lichen,md-vf,,Pj,13.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,3,jack pine/feathermoss,md-mm,,Pj,14.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,3,jack pine/feathermoss,md-mm,,Sb,12.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,3,jack pine/feathermoss,md-mm,,Bw,11.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,3,jack pine/feathermoss,md-mm,,Aw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,3,jack pine/feathermoss,md-mm,,Sw,11.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Pj,16.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Sb,12.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Bw,10.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Pb,14.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Aw,14.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Sw,13.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,4,jack pine-trembling aspen/feathermoss,md-vm,,Fb,14.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,5,trembling aspen/prickly rose/grass,md-vf,,Pj,14.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,5,trembling aspen/prickly rose/grass,md-vf,,Aw,14.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,5,trembling aspen/prickly rose/grass,md-vf,,Sw,16.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Sb,16.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Bw,9.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Pb,15.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Aw,17.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Sw,15.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,6,trembling aspen/beaked hazel/sarsaparilla,md-vm,,Fb,17.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Pj,19.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Sb,9.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Bw,13.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Pb,12.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Aw,16.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,7,trembling aspen-white birch/sarsaparilla,md-vm,,Sw,15.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,8,termbling aspen-white birch/mountain maple,f-vm,,Bw,14.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,8,termbling aspen-white birch/mountain maple,f-vm,,Pb,12.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,8,termbling aspen-white birch/mountain maple,f-vm,,Aw,21.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,8,termbling aspen-white birch/mountain maple,f-vm,,Sw,13.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,8,termbling aspen-white birch/mountain maple,f-vm,,Fb,10.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Pj,15.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Sb,9.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Bw,12.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Pb,15.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Aw,16.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Sw,15.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,9,white spruce-trembling aspen/feathermoss,md-vm,,Fb,17.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Pj,15.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Sb,12.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Bw,9.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Pb,12.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Aw,16.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Sw,14.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,10,trembling aspen-white spruce/feathermoss,f-m,,Fb,16.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Pj,13.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Sb,15.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Bw,14.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Pb,16.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Aw,15.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Sw,13.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,11,white birch-white spruce-balsam fir,md-vm,,Fb,15.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,12,jack pine-spruce/feathermoss,md-vm,,Pj,14.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,12,jack pine-spruce/feathermoss,md-vm,,Sb,13.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,12,jack pine-spruce/feathermoss,md-vm,,Bw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,12,jack pine-spruce/feathermoss,md-vm,,Aw,11.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,12,jack pine-spruce/feathermoss,md-vm,,Sw,15.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Pj,19.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Sb,12.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Bw,15.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Pb,17.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Aw,18.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Sw,14.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,13,white spruce-balsam fir/feathermoss,mf-vm,,Fb,15.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Pj,13.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Sb,11.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Bw,13.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Pb,17.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Aw,15.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Sw,14.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Lt,12.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,14,black spruce/Labrador tea/feathermoss,f-vm,,Fb,12.6
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Pj,14.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Sb,7.8
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Bw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Pb,14.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Aw,18.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Sw,14.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,15,balsam poplar-white spruce/feathermoss,md-vm,,Fb,19.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,16,balsam poplar-trembling aspen/prickly rose,mf-vm,,Bw,12.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,16,balsam poplar-trembling aspen/prickly rose,mf-vm,,Pb,18.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,16,balsam poplar-trembling aspen/prickly rose,mf-vm,,Aw,16.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,16,balsam poplar-trembling aspen/prickly rose,mf-vm,,Sw,11.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,16,balsam poplar-trembling aspen/prickly rose,mf-vm,,Fb,25.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,17,Manitoba maple-balsam poplar/ostrich fern,f-m,,Bw,13.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,17,Manitoba maple-balsam poplar/ostrich fern,f-m,,Pb,18.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,17,Manitoba maple-balsam poplar/ostrich fern,f-m,,Aw,17.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,17,Manitoba maple-balsam poplar/ostrich fern,f-m,,Sw,12.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,17,Manitoba maple-balsam poplar/ostrich fern,f-m,,Fb,14.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Sb,10.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Bw,12.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Pb,12.2
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Sw,13.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Lt,15.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,18,black spruce-tamarack treed swamp,vm-vw,,Fb,11.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,19,black spruce treed bog,vm-w,,Pj,7.7
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,19,black spruce treed bog,vm-w,,Sb,6.0
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,19,black spruce treed bog,vm-w,,Lt,7.4
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,20,labrador tea shrubby bog,vm-vw,,Sb,8.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,23,tamarack treed fen,vm-vw,,Sb,8.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,23,tamarack treed fen,vm-vw,,Lt,8.1
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,24,tamarack shrubby poor fen,mw-vw,,Lt,8.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,25,willow shrubby rich fen vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,mw-vw,,Sb,10.9
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,25,willow shrubby rich fen vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,mw-vw,,Bw,8.3
+SK,McLaughlan et al. 2010 (Saskatchewan),Boreal Plain Ecozone,25,willow shrubby rich fen vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,mw-vw,,Sw,9.5
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,2,lodgepole pine/grass,md-f,,Pl,14.60
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,2,lodgepole pine/grass,md-f,,Sw,14.10
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,3,trembling aspen-lodgepole pine/bearberry,f,,Pl,15.30
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,3,trembling aspen-lodgepole pine/bearberry,f,,Aw,13.10
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,3,trembling aspen-lodgepole pine/bearberry,f,,Sw,11.80
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,4,trembling aspen/bearberry/strawberry,mf-f,,Pb,17.20
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,4,trembling aspen/bearberry/strawberry,mf-f,,Aw,10.20
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,4,trembling aspen/bearberry/strawberry,mf-f,,Sw,13.50
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,5,trembling aspen/beaked hazel/sarsaparilla,f-vm,,Bw,12.30
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,5,trembling aspen/beaked hazel/sarsaparilla,f-vm,,Pb,12.20
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,5,trembling aspen/beaked hazel/sarsaparilla,f-vm,,Aw,15.80
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,5,trembling aspen/beaked hazel/sarsaparilla,f-vm,,Ga,9.30
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,6,white spruce/grass/other mosses,f,,Pl,15.10
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,6,white spruce/grass/other mosses,f,,Aw,13.40
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,6,white spruce/grass/other mosses,f,,Sw,14.20
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,7,trembling aspen-white spruce/western snowberry,f-vm,,Aw,11.40
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,7,trembling aspen-white spruce/western snowberry,f-vm,,Sw,14.90
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,8,balsam poplar-trembling aspen-green ash vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,m-vm,,Pb,15.30
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,8,balsam poplar-trembling aspen-green ash vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,m-vm,,Aw,15.50
+SK,McLaughlan et al. 2010 (Saskatchewan),Prairie Ecozone,8,balsam poplar-trembling aspen-green ash vw=very wet. calculated following: Cieszewski et al 1993 (EQ2).,m-vm,,Ga,12.00
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 10,11,TA-BA hardwood,d,b-c,Aw,19.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 10,12,TA-JP-Spruce mixedwood,d-f,b-c,Pj,10.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 10,12,TA-JP-Spruce mixedwood,d-f,b-c,Aw,12.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 10,12,TA-JP-Spruce mixedwood,d-f,b-c,Bw,10.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,21,WB mixedwood,d-vf,b-d,Aw,20.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,22,TA hardwood,f-vf,c,Pj,15.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,22,TA hardwood,f-vf,c,Aw,21.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,22,TA hardwood,f-vf,c,Sw,18.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Pb,18.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Sb,12.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Pj,14.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Aw,17.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Bw,11.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,23,TA-WS mixedwood,f-vf,c-d,Sw,17.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,24,JP-BS mixedwood,d-vf,b-c,Sb,12.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,24,JP-BS mixedwood,d-vf,b-c,Pj,13.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 20,24,JP-BS mixedwood,d-vf,b-c,Sw,15.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Pb,15.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Sb,12.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Pj,15.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Aw,19.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Lt,16.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Bw,14.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,31,TA-BA hardwood/mixedwood,f-vf,b-d,Sw,17.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Pb,17.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Sb,12.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Pj,15.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Aw,19.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Bw,17.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,32,TA-BA hardwood,f-vf,c,Sw,16.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Pb,16.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Sb,13.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Pj,15.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Aw,17.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Bw,13.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,33,TA-BA mixedwood,f-vf,b-c,Sw,16.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Pb,15.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Sb,14.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Pj,17.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Aw,16.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Lt,12.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Bw,16.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,34,WS-BF mixedwood,f-vf,c-d,Sw,16.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,35,JP-BS mixedwood,f-vf,b-c,Pb,19.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,35,JP-BS mixedwood,f-vf,b-c,Sb,15.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,35,JP-BS mixedwood,f-vf,b-c,Pj,16.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,35,JP-BS mixedwood,f-vf,b-c,Aw,16.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,35,JP-BS mixedwood,f-vf,b-c,Sw,16.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Pb,14.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Sb,12.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Pj,14.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Aw,16.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Lt,18.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 30,36,BS-JP-(WS-BF) Labrador tea-feathermoss,f-vf,a-c,Sw,16.6
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,41,TA-BA hardwood,m-m,b-c,Aw,21.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,42,WS (BF) mixedwood,vf-m,b-e,Sb,12.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,42,WS (BF) mixedwood,vf-m,b-e,Sw,17.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Pb,10.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Sb,9.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Pj,13.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Aw,10.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Lt,21.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Bw,14.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 40,43,BS-JP-feathermoss,vf-m,b-c,Sw,14.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,51,TA-BA hardwood,vf-m,c-d,Aw,20.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,51,TA-BA hardwood,vf-m,c-d,Sw,17.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,52,TA-WS-JP mixedwood,vf-m,b-d,Sb,10.2
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,52,TA-WS-JP mixedwood,vf-m,b-d,Aw,20.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,52,TA-WS-JP mixedwood,vf-m,b-d,Bw,14.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,52,TA-WS-JP mixedwood,vf-m,b-d,Sw,19.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Pb,14.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Sb,11.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Pj,14.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Aw,17.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Lt,16.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 50,53,BS-feathermoss-Labrador-tea,vf-m,a-d,Sw,16.0
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Pb,14.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Sb,9.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Pj,15.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Aw,16.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Lt,10.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,61,BS-(WS)-Lab tea-Fmoss-Sphagnum,w,a-c,Sw,17.9
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,62,BS-Alder-Herb Rich,w,a-c,Sb,6.7
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,62,BS-Alder-Herb Rich,w,a-c,Lt,8.8
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,63,TL-BS-Sedge (Treed Fen),w,a-c,Pb,14.5
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,63,TL-BS-Sedge (Treed Fen),w,a-c,Sb,7.4
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,63,TL-BS-Sedge (Treed Fen),w,a-c,Aw,15.3
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,63,TL-BS-Sedge (Treed Fen),w,a-c,Lt,9.1
+MB,Yakielshek 2006 (Manitoba mid-boreal upland),EcoSeries 60,64,"BS-(JP)-Ericaceous-Sphagnum (Treed Bog) 78 pp. d=moderately dry, f=fresh, vf=very fresh, a=very poor, b=poor, c=medium, d=rich, Cieszewski et al 1993 (EQ2).",w,a-b,Sb,7.5

@@ -1,5 +1,5 @@
-## Examples for BCsindexRCFS wrapper functions
-library(BCsindexRCFS)
+## Examples for CanWestSiteIndexCFS wrapper functions
+library(CanWestSiteIndexCFS)
 
 cat('ht_age_to_si(1,50,1,30,0) =>', ht_age_to_si(1,50,1,30,0), '\n')
 cat('si_to_ht(1,50,1,30) =>', si_to_ht(1,50,1,30), '\n')

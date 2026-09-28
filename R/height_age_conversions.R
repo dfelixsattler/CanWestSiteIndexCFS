@@ -85,7 +85,7 @@ resolve_curve_index <- function(cu_index = NULL, species = NULL, curve = "defaul
 #'   and a straight, disease-free, undamaged stem. Wolf, open-grown, and
 #'   veteran trees are not suitable, nor are trees affected by suppression,
 #'   damage, fertilization, or other influences on inherent height-growth
-#'   potential. See \code{\link{BCsindexRCFS-package}} for the full BC
+#'   potential. See \code{\link{CanWestSiteIndexCFS-package}} for the full BC
 #'   definition and reference.
 #' @examples
 #' ht_age_to_si(1, 50, 1, 30, 0)

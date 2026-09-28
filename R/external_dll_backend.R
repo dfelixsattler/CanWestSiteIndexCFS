@@ -93,7 +93,7 @@ sindex_class_to_index <- function(sp_index, site_class, fiz) {
 }
 
 sindex_cpp_age_to_age <- function(cu_index, age1, age1_type, age2_type, y2bh) {
-  .Call(`_BCsindexRCFS_age_to_age`,
+  .Call(`_CanWestSiteIndexCFS_age_to_age`,
     as.integer(cu_index),
     as.numeric(age1),
     as.integer(age1_type),

@@ -3,3 +3,9 @@
 ^my_tests$
 ^doc$
 ^Meta$
+^data-raw$
+^build_and_test\.R$
+^demo_y2bh\.R$
+^README_WRAPPERS\.md$
+^REFACTORING_SUMMARY\.md$
+^.*\.tar\.gz$

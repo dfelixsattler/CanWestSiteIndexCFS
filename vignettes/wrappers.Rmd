@@ -1,16 +1,16 @@
 ---
-title: "BCsindexRCFS Wrappers"
-author: "BCsindexRCFS Contributors"
+title: "CanWestSiteIndexCFS Wrappers"
+author: "CanWestSiteIndexCFS Contributors"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{BCsindexRCFS Wrappers}
+  %\VignetteIndexEntry{CanWestSiteIndexCFS Wrappers}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 ```
 
 # Introduction

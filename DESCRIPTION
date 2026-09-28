@@ -1,18 +1,21 @@
-Package: BCsindexRCFS
+Package: CanWestSiteIndexCFS
 Type: Package
-Title: Site Index Tools in R for PSP and Growth Workflows
-Version: 0.2.0
-Date: 2026-06-17
+Title: Site Index Tools for Western Canadian PSP and Growth Workflows
+Version: 0.3.0
+Date: 2026-09-24
 Authors@R: c(
   person("Derek Felix", "Sattler", email = "Derek.Sattler@nrcan-rncan.gc.ca", role = c("aut", "cre")),
   person("Yong", "Luo", email = "Yong.Luo@gov.bc.ca", role = "ctb", comment = "Original SIndexR package author"),
   person("Ken", "Polsson", role = "ctb", comment = "Original Sindex C implementation")
  )
-Description: A modernized fork of the original SIndexR package that exposes
-  SiteTools' site index routines for practical forestry workflows in R. This
-  package adds consistent wrapper APIs, external DLL backend support, and
-  legacy compatibility guidance. Examples of usage for Permanent Sample Plots
-  (PSP) and growth-and-yield models is provided.
+Description: Site index estimation for western Canadian forest inventory and
+  growth-and-yield workflows. Wraps the British Columbia SiteTools ('Sindex')
+  height-age routines, and adds Alberta 'GYPSY' (Huang et al. 2009) height-age
+  and site index functions, Alberta and Saskatchewan species site index
+  conversion equations, and published site index lookup tables keyed by
+  ecosite, ecosite phase and edatope for British Columbia, Alberta,
+  Saskatchewan and Manitoba. Examples of usage for Permanent Sample Plots
+  (PSP) and growth-and-yield models are provided.
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -1,9 +1,9 @@
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 
 # Example: Treelist preparation for growth and yield input.
 # Goal: derive stand-level SI from dominant age/height, then attach y2bh and projection height.
-stands_path <- system.file("examples", "stand_inputs_sample.csv", package = "BCsindexRCFS")
-trees_path <- system.file("examples", "treelist_sample.csv", package = "BCsindexRCFS")
+stands_path <- system.file("examples", "stand_inputs_sample.csv", package = "CanWestSiteIndexCFS")
+trees_path <- system.file("examples", "treelist_sample.csv", package = "CanWestSiteIndexCFS")
 
 stands <- read.csv(stands_path, stringsAsFactors = FALSE)
 trees <- read.csv(trees_path, stringsAsFactors = FALSE)

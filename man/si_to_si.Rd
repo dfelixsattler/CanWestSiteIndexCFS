@@ -24,13 +24,53 @@ si_to_si(
 \item{target_fiz}{optional FIZ code used when remapping target species codes}
 }
 \value{
-numeric converted site index, or a negative SIndex error code
+numeric vector of converted site indices. Returns \code{NA_real_}
+  (with a warning) where the species pair has no conversion equation, or
+  where a species/FIZ code cannot be resolved. \code{NA} inputs propagate
+  silently.
 }
 \description{
 Converts site index from a source species to a target species using
-the internal species conversion table.
+the internal species conversion table. Vectorised over all arguments,
+which are recycled to a common length.
+}
+\details{
+Conversion is a simple linear rescaling,
+\code{target_si = a + b * source_si}, with coefficients drawn from a fixed
+29-entry table. Only these directed pairs are defined:
+
+\tabular{ll}{
+  \strong{Source} \tab \strong{Available targets} \cr
+  AT  \tab SW \cr
+  BA  \tab HWC \cr
+  CWC \tab HWC \cr
+  FDC \tab HWC \cr
+  HWC \tab BA, CWC, FDC, SS \cr
+  HWI \tab FDI \cr
+  SS  \tab HWC \cr
+  PLI \tab SW, FDI, BL, LW, SB \cr
+  SB  \tab PLI \cr
+  SW  \tab AT, PLI, FDI, BL \cr
+  FDI \tab PLI, SW, HWI, LW \cr
+  BL  \tab PLI, SW \cr
+  LW  \tab PLI, FDI \cr
+}
+
+Coastal and interior species form disjoint groups; there is no conversion
+path between them. Where a reverse pair exists its coefficients are the
+exact algebraic inverse of the forward pair, so round-tripping is lossless.
+
+Because the equations are linear extrapolations, very low source site
+indices can yield a negative result. Such values are returned as computed,
+not converted to \code{NA}.
 }
 \examples{
 si_to_si("BA", 20, "HWC")
 si_to_si(11, 20, 48)
+
+# vectorised; unsupported pairs come back as NA with a warning
+si_to_si(c("PLI", "SW", "BA"), c(18, 22, 25), "FDI")
+}
+\seealso{
+\code{\link{site_class_to_index}}
 }

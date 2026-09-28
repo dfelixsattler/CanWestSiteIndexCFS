@@ -1,16 +1,16 @@
 ---
-title: "BCsindexRCFS Workflow Integration Examples"
-author: "BCsindexRCFS Contributors"
+title: "CanWestSiteIndexCFS Workflow Integration Examples"
+author: "CanWestSiteIndexCFS Contributors"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{BCsindexRCFS Workflow Integration Examples}
+  %\VignetteIndexEntry{CanWestSiteIndexCFS Workflow Integration Examples}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 ```
 
 ## Overview
@@ -25,11 +25,11 @@ The examples use generic sample datasets included in the package under `inst/exa
 ## 1) PSP Workflow Example
 
 Typical PSP programs maintain dominant height and age observations by plot and measurement year.
-Using those fields, BCsindexRCFS can derive site index and years to breast height.
+Using those fields, CanWestSiteIndexCFS can derive site index and years to breast height.
 
 > **Site tree assumption.** The `dom_height_m` and `bh_age` fields in this example represent
 > measurements taken from pre-designated **site trees** — vigorous dominant or co-dominant trees
-> selected in the field according to BC's site tree criteria (see `?BCsindexRCFS` for the full
+> selected in the field according to BC's site tree criteria (see `?CanWestSiteIndexCFS` for the full
 > definition). This package does **not** select site trees from a general treelist. It assumes
 > that suitable trees have already been identified and that the supplied height and age values
 > reflect those trees. Passing height or age values from non-site trees (e.g., suppressed,
@@ -37,7 +37,7 @@ Using those fields, BCsindexRCFS can derive site index and years to breast heigh
 > meaningful.
 
 ```{r psp-load}
-psp_path <- system.file("examples", "psp_sample.csv", package = "BCsindexRCFS")
+psp_path <- system.file("examples", "psp_sample.csv", package = "CanWestSiteIndexCFS")
 psp <- read.csv(psp_path, stringsAsFactors = FALSE)
 psp
 ```
@@ -105,12 +105,12 @@ then attach those attributes to each tree record used by a growth model.
 > a full treelist rather than pre-compiled stand summaries, dominant height must be derived
 > externally before calling `ht_age_to_si()` — for example, by selecting the tallest live
 > dominant or co-dominant trees (crown class D or C) that are undamaged, have intact tops, and
-> are free from suppression or other influences on height-growth potential. See `?BCsindexRCFS`
+> are free from suppression or other influences on height-growth potential. See `?CanWestSiteIndexCFS`
 > for BC's full site tree definition.
 
 ```{r treelist-load}
-stands_path <- system.file("examples", "stand_inputs_sample.csv", package = "BCsindexRCFS")
-trees_path <- system.file("examples", "treelist_sample.csv", package = "BCsindexRCFS")
+stands_path <- system.file("examples", "stand_inputs_sample.csv", package = "CanWestSiteIndexCFS")
+trees_path <- system.file("examples", "treelist_sample.csv", package = "CanWestSiteIndexCFS")
 
 stands <- read.csv(stands_path, stringsAsFactors = FALSE)
 trees <- read.csv(trees_path, stringsAsFactors = FALSE)
@@ -160,7 +160,7 @@ model_treelist
 You can run the equivalent script versions directly:
 
 ```r
-source(system.file("examples", "psp_workflow_example.R", package = "BCsindexRCFS"))
-source(system.file("examples", "treelist_workflow_example.R", package = "BCsindexRCFS"))
+source(system.file("examples", "psp_workflow_example.R", package = "CanWestSiteIndexCFS"))
+source(system.file("examples", "treelist_workflow_example.R", package = "CanWestSiteIndexCFS"))
 ```
 

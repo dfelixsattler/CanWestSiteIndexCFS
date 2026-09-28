@@ -1,0 +1,258 @@
+---
+title: "Alberta and western Canada site index"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Alberta and western Canada site index}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(CanWestSiteIndexCFS)
+```
+
+The British Columbia side of this package wraps the Sindex height-age curves.
+This vignette covers the rest of western Canada: the Alberta GYPSY height-age
+models, and the three ways of estimating site index when no suitable top height
+tree is available.
+
+## Which estimator should I use?
+
+Bjelanovic and Comeau (2019) and Comeau (2020) give an explicit preference
+order for a stand where site index cannot be measured directly:
+
+1. **Edatope** -- `si_from_edatope()`. Preferred: edatopes cover a narrower
+   range of site conditions than ecosites and are easier to determine in young
+   stands.
+2. **Ecosite** -- `si_from_ecosite()`. Same study, coarser stratification.
+3. **Species conversion** -- `ab_si_to_si()`. Use only when a measured site
+   index for another species is available, and compare the result against the
+   ecological estimate.
+4. **Provincial ecosite guides** -- `si_from_ecosite_guide()`. Retained for
+   reference and for British Columbia and Manitoba, which the 2019 study does
+   not cover. The Alberta guide values are based on mature and old growth
+   sampling and superseded height-age equations; Comeau (2020) recommends
+   `si_from_edatope()` in their place.
+
+## Age basis: the thing to get right first
+
+Alberta carries two site index definitions and they are not interchangeable.
+
+- **SIt** -- top height at 50 years **total** age. This is what the GYPSY
+  height-age models are parameterised on.
+- **SIbh** -- top height at 50 years **breast height** age. This is what
+  Alberta operational inventory and the Mixedwood Growth Model use.
+
+Because a tree needs some years to reach 1.3 m, breast height age 50 is total
+age `50 + Y2BH`, so `SIbh` is always the larger number.
+
+```{r}
+ab_si_total_to_bh(c("Aw", "Sb", "Pl", "Sw"), 20)
+ab_years_to_bh(c("Aw", "Sb", "Pl", "Sw"), 20)
+```
+
+GYPSY derives years-to-breast-height from site index rather than treating it as
+a species constant, so a poorer site takes longer:
+
+```{r}
+ab_years_to_bh("Pl", c(10, 15, 20, 25))
+```
+
+The reverse conversion has no closed form and is solved numerically:
+
+```{r}
+ab_si_bh_to_total("Pl", 21.3314)
+```
+
+## Height and site index
+
+`ab_si_to_height()` evaluates the curve; `ab_height_to_si()` inverts it. Both
+take **total** age.
+
+```{r}
+# At the reference age, top height equals SIt by construction
+ab_si_to_height(c("Aw", "Sb", "Pl", "Sw"), 20, 50)
+
+# A lodgepole pine height trajectory
+data.frame(
+  total_age  = seq(10, 100, by = 10),
+  top_height = round(ab_si_to_height("Pl", 18, seq(10, 100, by = 10)), 2)
+)
+```
+
+Going the other way from a field measurement, and asking for the result on the
+basis MGM expects:
+
+```{r}
+ab_height_to_si("Aw", top_height = 17.5, total_age = 40)
+ab_height_to_si("Aw", top_height = 17.5, total_age = 40, age_basis = "breast")
+```
+
+### Species beyond the four GYPSY curves
+
+GYPSY covers aspen, black spruce, lodgepole pine and white spruce. Other
+species are conventionally modelled with the most similar curve.
+`ab_gypsy_species()` makes that substitution visible rather than silent:
+
+```{r}
+ab_gypsy_species(c("Aw", "Pj", "Bw", "Pb", "Fb", "Sw"))
+```
+
+An unrecognised code returns `NA` with a warning rather than a plausible
+looking number:
+
+```{r}
+suppressWarnings(ab_si_to_height("Zz", 18, 40))
+```
+
+## Site index from edatope
+
+Edatope is the combination of soil moisture regime (SMR, 2-8) and soil nutrient
+regime (SNR, B/C/D) within a natural subregion.
+
+```{r}
+si_from_edatope("LF", smr = 5, snr = "C", species = c("Aw", "Sw", "Pl"))
+```
+
+Ask for `details = TRUE` when the sample size matters -- several cells rest on
+only three or four plots:
+
+```{r}
+si_from_edatope("LF", 5, "C", c("Aw", "Sw", "Pl"), details = TRUE)
+```
+
+Combinations that were never sampled, or that had fewer than three plots, come
+back as `NA` with a warning:
+
+```{r}
+suppressWarnings(si_from_edatope("CM", 9, "D", "Aw"))
+```
+
+## Site index from ecosite
+
+```{r}
+si_from_ecosite("CM", "d", c("Aw", "Sw", "Pj"))
+si_from_ecosite("CM", "d", c("Aw", "Sw", "Pj"), age_basis = "total")
+```
+
+## Species site index conversion
+
+Six directed pairs are published, on each of the two age bases:
+
+```{r}
+ab_si_conversions[ab_si_conversions$age_basis == "breast",
+                  c("from", "to", "intercept", "slope", "see", "pearson_r")]
+```
+
+```{r}
+ab_si_to_si("Aw", 20, "Sw")
+ab_si_to_si("Aw", 20, "Sw", age_basis = "total")
+```
+
+Aw-Pl, Pl-Pj and Sw-Pj were **not** significant and are deliberately absent:
+
+```{r}
+suppressWarnings(ab_si_to_si("Aw", 20, "Pl"))
+```
+
+These equations explain only 26-47 % of the variation in predicted site index.
+Comparing against the ecological estimate is the recommended check:
+
+```{r}
+aw <- si_from_edatope("CM", 5, "C", "Aw")
+data.frame(
+  source            = c("edatope", "converted from Aw"),
+  sw_site_index = round(c(si_from_edatope("CM", 5, "C", "Sw"),
+                          ab_si_to_si("Aw", aw, "Sw")), 2)
+)
+```
+
+The reverse equations were fitted independently rather than derived
+algebraically, so a conversion is not reversible:
+
+```{r}
+ab_si_to_si("Sw", ab_si_to_si("Aw", 20, "Sw"), "Aw")
+```
+
+## Provincial ecosite guides
+
+`si_from_ecosite_guide()` covers British Columbia site series, the Alberta
+ecosite guides, both Saskatchewan guides and the Manitoba guide.
+
+```{r}
+si_from_ecosite_guide("BWBSmw", "110", c("Pl", "Sw", "Sb", "Aw"))
+si_from_ecosite_guide("Lower Foothills", "e", c("Aw", "Sw", "Pl"))
+si_from_ecosite_guide("Boreal Plain Ecozone", "10", c("Pj", "Aw", "Sw"))
+si_from_ecosite_guide("EcoSeries 30", "34", "Sw", details = TRUE)
+```
+
+The available classification units:
+
+```{r}
+unique(si_ecosite_guides[, c("jurisdiction", "unit")])
+```
+
+Soil moisture coding is not consistent between guides -- British Columbia,
+Alberta and the 1996 Saskatchewan guide use the numeric 1-9 scale, while the
+2010 Saskatchewan guide and the Manitoba guide use letter classes. The
+published strings are carried through unchanged, so check `smr` and `snr`
+against the guide named in the `guide` column before comparing across
+jurisdictions.
+
+## Worked example: filling gaps in a species list
+
+A mixedwood plot in the Central Mixedwoods where only aspen carried a
+measurable site index.
+
+```{r}
+plot_species <- data.frame(
+  species = c("Aw", "Sw", "Sb", "Pl"),
+  si_bh   = c(21.0, NA, NA, NA),
+  stringsAsFactors = FALSE
+)
+
+# 1. edatope first, where the study covers the species
+plot_species$si_edatope <- si_from_edatope("CM", 5, "C", plot_species$species) |>
+  suppressWarnings()
+
+# 2. species conversion from the measured aspen value as a cross-check
+plot_species$si_converted <- ab_si_to_si("Aw", 21.0, plot_species$species) |>
+  suppressWarnings()
+
+# 3. resolve: measured, then edatope, then conversion
+plot_species$si_final <- ifelse(
+  !is.na(plot_species$si_bh), plot_species$si_bh,
+  ifelse(!is.na(plot_species$si_edatope), plot_species$si_edatope,
+         plot_species$si_converted)
+)
+
+plot_species
+
+# GYPSY needs total-age site index and total age
+plot_species$si_total <- ab_si_bh_to_total(plot_species$species,
+                                           plot_species$si_final)
+plot_species$topht_10 <- ab_si_to_height(plot_species$species,
+                                         plot_species$si_total, total_age = 10)
+plot_species[, c("species", "si_final", "si_total", "topht_10")]
+```
+
+Black spruce has no edatope entry for this cell and no conversion equation from
+aspen, so it stays `NA` rather than silently borrowing another species' value.
+
+## References
+
+Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index using ecosite and
+edatope in Alberta and Saskatchewan. MGM Research Note #2019-1. University of
+Alberta, Edmonton, Alberta.
+
+Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion equations for
+Alberta and Saskatchewan. MGM Research Note #2019-2. University of Alberta,
+Edmonton, Alberta.
+
+Comeau, P.G. 2020. Estimating site index using ecosite guides for Western
+Canada. MGM Research Note #2020-1. University of Alberta, Edmonton, Alberta.
+
+Huang, S., Meng, S.X., and Yang, Y. 2009. A Growth and Yield Projection System
+(GYPSY) for Natural and Post-harvest Stands in Alberta. Alberta Sustainable
+Resource Development Tech. Rep. T/216.

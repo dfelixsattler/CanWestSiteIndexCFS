@@ -1,0 +1,16 @@
+citHeader("To cite CanWestSiteIndexCFS in publications, use:")
+
+bibentry(
+  bibtype     = "Manual",
+  title       = "CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows",
+  author      = person("Derek Felix", "Sattler"),
+  year        = "2026",
+  note        = "R package version 0.3.0",
+  url         = "https://github.com/dfelixsattler/CanWestSiteIndexCFS",
+  textVersion = paste(
+    "Sattler, D. (2026).",
+    "CanWestSiteIndexCFS: Site Index Tools for Western Canadian PSP and Growth Workflows.",
+    "R package version 0.3.0.",
+    "https://github.com/dfelixsattler/CanWestSiteIndexCFS"
+  )
+)

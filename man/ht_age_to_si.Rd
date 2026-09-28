@@ -50,7 +50,7 @@ A thin wrapper around the internal `height_to_index` routine.
   and a straight, disease-free, undamaged stem. Wolf, open-grown, and
   veteran trees are not suitable, nor are trees affected by suppression,
   damage, fertilization, or other influences on inherent height-growth
-  potential. See \code{\link{BCsindexRCFS-package}} for the full BC
+  potential. See \code{\link{CanWestSiteIndexCFS-package}} for the full BC
   definition and reference.
 }
 

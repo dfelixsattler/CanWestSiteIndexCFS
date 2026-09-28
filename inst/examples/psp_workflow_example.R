@@ -1,8 +1,8 @@
-library(BCsindexRCFS)
+library(CanWestSiteIndexCFS)
 
 # Example: Permanent Sample Plot (PSP) workflow.
 # Goal: estimate site index and years-to-breast-height from observed dominant age/height.
-psp_path <- system.file("examples", "psp_sample.csv", package = "BCsindexRCFS")
+psp_path <- system.file("examples", "psp_sample.csv", package = "CanWestSiteIndexCFS")
 psp <- read.csv(psp_path, stringsAsFactors = FALSE)
 
 psp$cu_index <- mapply(
