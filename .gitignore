@@ -44,3 +44,6 @@ src/*.dll.backup
 /Meta/
 
 my_tests/
+
+# Internal handover / status notes (not user documentation)
+PROJECT_STATUS.md
