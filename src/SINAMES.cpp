@@ -158,7 +158,7 @@ using namespace Rcpp;
  */
 
 
-char *si_spec_code[SI_MAX_SPECIES] =
+const char *si_spec_code[SI_MAX_SPECIES] =
   {
 #ifdef SI_SPEC_A
   "A",
@@ -597,7 +597,7 @@ char *si_spec_code[SI_MAX_SPECIES] =
 #endif
   };
 
-char *si_spec_name[SI_MAX_SPECIES] =
+const char *si_spec_name[SI_MAX_SPECIES] =
   {
 #ifdef SI_SPEC_A
   "Aspen",
@@ -1036,7 +1036,7 @@ char *si_spec_name[SI_MAX_SPECIES] =
 #endif
   };
 
-char *si_curve_name[SI_MAX_CURVES] =
+const char *si_curve_name[SI_MAX_CURVES] =
   {
 #ifdef SI_ACB_HUANG
   "Huang, Titus, and Lakusta (1994)",

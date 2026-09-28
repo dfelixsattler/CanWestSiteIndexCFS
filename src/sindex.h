@@ -487,10 +487,10 @@ extern double age_to_age (
   short int,
   double);
 
-extern char *si_spec_code[SI_MAX_SPECIES];  /* species codes */
-extern char *si_spec_name[SI_MAX_SPECIES];  /* species names */
+extern const char *si_spec_code[SI_MAX_SPECIES];  /* species codes */
+extern const char *si_spec_name[SI_MAX_SPECIES];  /* species names */
 
-extern char *si_curve_name[SI_MAX_CURVES];  /* curve names */
+extern const char *si_curve_name[SI_MAX_CURVES];  /* curve names */
 
 /*
  * indicates what equations are available (additive):

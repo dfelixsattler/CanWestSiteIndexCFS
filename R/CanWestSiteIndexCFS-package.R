@@ -87,7 +87,7 @@
 #'
 #'   Reference: BC Ministry of Forests, Lands, Natural Resource Operations and
 #'   Rural Development (2009). \emph{SIBEC Sampling and Data Standards}.
-#'   \url{http://www2.gov.bc.ca/assets/gov/environment/research-monitoring-and-reporting/research/sibec-documents/standards.pdf}
+#'   \url{https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/ecosystems/sibec}
 #'
 #' @keywords package
 #' @seealso

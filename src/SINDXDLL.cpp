@@ -478,7 +478,7 @@ using namespace Rcpp;
 #define SI_ZH_END     SI_ERR_NO_ANS
 
 
-static char *si_curve_notes[SI_MAX_CURVES][2] =
+static const char *si_curve_notes[SI_MAX_CURVES][2] =
   {
   /* SI_ACB_HUANG */
   "Huang Shongming, Stephen J. Titus and Tom W. Lakusta. 1994. \

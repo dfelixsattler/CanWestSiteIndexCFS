@@ -3,7 +3,7 @@
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/dfelixsattler/CanWestSiteIndexCFS/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dfelixsattler/CanWestSiteIndexCFS/actions/workflows/R-CMD-check.yaml)
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+[![License: GPL v3](https://img.shields.io/badge/license-GPL%20(%3E%3D%203)-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 <!-- badges: end -->
 
 > **Status: in development.** The API is still settling and may change without
@@ -242,15 +242,31 @@ Please file issues and contributions in this fork repository. See
 
 ## License
 
-GPL (>= 2). See `LICENSE.md`.
+GPL (>= 3). See `LICENSE.md`.
+
+### Why GPL, and why version 3
 
 This package is a derivative work of the `SIndexR` package by Yong Luo, which
-is distributed under GPL (>= 2), and therefore inherits that licence. An
-earlier commit in this repository's history relabelled the package as Apache
-2.0; that change was not authorised by the upstream copyright holders and has
-been reverted.
+is distributed under **GPL (>= 2)**. A derivative of a GPL work must itself be
+GPL, so that is the licence this package inherits.
 
-The underlying Sindex C library originates with the British Columbia Ministry
-of Forests and is subject to its own terms; see the SiteTools download page
-linked above.
+An earlier commit in this repository's history (`e649ab3`) relabelled the
+package as Apache 2.0, bundled in with unrelated changes. That relicence was
+not authorised by the upstream copyright holders and has been reverted.
+
+The floor was then raised from GPL (>= 2) to **GPL (>= 3)** because three files
+in `R/` are `Copyright 2018 Province of British Columbia` and carry Apache 2.0
+headers. Apache 2.0 is **incompatible with GPL-2** — its patent-termination
+clause counts as an additional restriction under GPL-2 — but it **is**
+compatible with GPL-3, which was written to accept exactly that kind of clause.
+Declaring `GPL (>= 2)` would have offered recipients a GPL-2 option that cannot
+lawfully be exercised while those files are included. `GPL (>= 3)` removes the
+contradiction.
+
+The BC Government's Apache 2.0 headers are left intact in those files: they are
+that organisation's own grant on its own code and are not ours to remove.
+
+The underlying Sindex C library also originates with the British Columbia
+Ministry of Forests and is subject to its own terms; see the SiteTools download
+page linked above.
 
