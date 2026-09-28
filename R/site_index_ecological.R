@@ -62,9 +62,13 @@
 #' over ecosite, because edatopes cover a narrower range of site conditions and
 #' are easier to determine in young stands.
 #'
+#' Values on the \code{"breast"} basis are directly usable as Mixedwood Growth
+#' Model (MGM) site index input; see \url{https://mgm.ualberta.ca/}.
+#'
 #' @references Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index
 #'   using ecosite and edatope in Alberta and Saskatchewan. MGM Research Note
 #'   #2019-1. University of Alberta, Edmonton, Alberta.
+#'   \url{https://mgm.ualberta.ca/research-notes/}
 #'
 #' @seealso \code{\link{si_from_edatope}}, \code{\link{si_from_ecosite_guide}},
 #'   \code{\link{ab_si_ecosite}}
@@ -119,9 +123,13 @@ si_from_ecosite <- function(nsr, ecosite, species,
 #' \code{\link{si_from_ecosite}} and the species conversion equations in
 #' \code{\link{ab_si_to_si}}.
 #'
+#' Values on the \code{"breast"} basis are directly usable as Mixedwood Growth
+#' Model (MGM) site index input; see \url{https://mgm.ualberta.ca/}.
+#'
 #' @references Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index
 #'   using ecosite and edatope in Alberta and Saskatchewan. MGM Research Note
 #'   #2019-1. University of Alberta, Edmonton, Alberta.
+#'   \url{https://mgm.ualberta.ca/research-notes/}
 #'
 #' @seealso \code{\link{si_from_ecosite}}, \code{\link{ab_si_edatope}}
 #' @examples
@@ -195,7 +203,7 @@ si_from_edatope <- function(nsr, smr, snr, species,
 #'
 #' @references Comeau, P.G. 2020. Estimating site index using ecosite guides for
 #'   Western Canada. MGM Research Note #2020-1. University of Alberta,
-#'   Edmonton, Alberta.
+#'   Edmonton, Alberta. \url{https://mgm.ualberta.ca/research-notes/}
 #'
 #' @seealso \code{\link{si_ecosite_guides}}, \code{\link{si_from_edatope}}
 #' @examples

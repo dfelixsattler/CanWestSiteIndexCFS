@@ -9,3 +9,7 @@
 ^README_WRAPPERS\.md$
 ^REFACTORING_SUMMARY\.md$
 ^.*\.tar\.gz$
+^LICENSE\.md$
+^\.github$
+^CODE_OF_CONDUCT\.md$
+^CONTRIBUTING\.md$

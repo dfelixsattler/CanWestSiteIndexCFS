@@ -17,10 +17,20 @@ This vignette covers the rest of western Canada: the Alberta GYPSY height-age
 models, and the three ways of estimating site index when no suitable top height
 tree is available.
 
+Most of what follows comes from the research notes of the
+[Mixedwood Growth Model (MGM)](https://mgm.ualberta.ca/) project at the
+University of Alberta. MGM is an individual-tree, distance-independent growth
+model for the boreal mixedwood of western Canada, and it needs one number per
+species in the stand: **site index at 50 years breast height age**. Much of the
+work below is about getting that number when it cannot be measured directly,
+and making sure it is on the basis MGM expects rather than the basis GYPSY is
+fitted on.
+
 ## Which estimator should I use?
 
-Bjelanovic and Comeau (2019) and Comeau (2020) give an explicit preference
-order for a stand where site index cannot be measured directly:
+[Bjelanovic and Comeau (2019)](https://mgm.ualberta.ca/research-notes/) and
+Comeau (2020) give an explicit preference order for a stand where site index
+cannot be measured directly:
 
 1. **Edatope** -- `si_from_edatope()`. Preferred: edatopes cover a narrower
    range of site conditions than ecosites and are easier to determine in young
@@ -42,10 +52,12 @@ Alberta carries two site index definitions and they are not interchangeable.
 - **SIt** -- top height at 50 years **total** age. This is what the GYPSY
   height-age models are parameterised on.
 - **SIbh** -- top height at 50 years **breast height** age. This is what
-  Alberta operational inventory and the Mixedwood Growth Model use.
+  Alberta operational inventory and MGM use.
 
-Because a tree needs some years to reach 1.3 m, breast height age 50 is total
-age `50 + Y2BH`, so `SIbh` is always the larger number.
+Getting this wrong is the most common way to feed MGM a quietly biased site
+index, because both numbers are plausible heights for the same stand. Because a
+tree needs some years to reach 1.3 m, breast height age 50 is total age
+`50 + Y2BH`, so `SIbh` is always the larger number.
 
 ```{r}
 ab_si_total_to_bh(c("Aw", "Sb", "Pl", "Sw"), 20)
@@ -200,10 +212,12 @@ published strings are carried through unchanged, so check `smr` and `snr`
 against the guide named in the `guide` column before comparing across
 jurisdictions.
 
-## Worked example: filling gaps in a species list
+## Worked example: assembling MGM inputs
 
 A mixedwood plot in the Central Mixedwoods where only aspen carried a
-measurable site index.
+measurable site index. MGM wants one site index per species on the breast
+height age 50 basis, so `si_final` below is the column that goes into the
+model.
 
 ```{r}
 plot_species <- data.frame(
@@ -237,22 +251,31 @@ plot_species$topht_10 <- ab_si_to_height(plot_species$species,
 plot_species[, c("species", "si_final", "si_total", "topht_10")]
 ```
 
+`si_final` is MGM-ready; `si_total` and `topht_10` are the GYPSY-basis
+equivalents, useful for initialising a stand at an early age.
+
 Black spruce has no edatope entry for this cell and no conversion equation from
 aspen, so it stays `NA` rather than silently borrowing another species' value.
+That is deliberate: MGM will reject a missing site index loudly, whereas a
+borrowed one propagates silently through the whole projection.
 
 ## References
 
 Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index using ecosite and
 edatope in Alberta and Saskatchewan. MGM Research Note #2019-1. University of
-Alberta, Edmonton, Alberta.
+Alberta, Edmonton, Alberta. <https://mgm.ualberta.ca/research-notes/>
 
 Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion equations for
 Alberta and Saskatchewan. MGM Research Note #2019-2. University of Alberta,
-Edmonton, Alberta.
+Edmonton, Alberta. <https://mgm.ualberta.ca/research-notes/>
 
 Comeau, P.G. 2020. Estimating site index using ecosite guides for Western
 Canada. MGM Research Note #2020-1. University of Alberta, Edmonton, Alberta.
+<https://mgm.ualberta.ca/research-notes/>
 
 Huang, S., Meng, S.X., and Yang, Y. 2009. A Growth and Yield Projection System
 (GYPSY) for Natural and Post-harvest Stands in Alberta. Alberta Sustainable
 Resource Development Tech. Rep. T/216.
+
+Mixedwood Growth Model (MGM), University of Alberta.
+<https://mgm.ualberta.ca/>

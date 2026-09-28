@@ -71,6 +71,7 @@ ab_si_to_si("Aw", c(16, 18, 20), c("Sw", "Pj", "Pl"))
 Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion
   equations for Alberta and Saskatchewan. MGM Research Note #2019-2.
   University of Alberta, Edmonton, Alberta.
+  \url{https://mgm.ualberta.ca/research-notes/}
 }
 \seealso{
 \code{\link{ab_si_conversions}}, \code{\link{si_from_edatope}},

@@ -47,6 +47,9 @@ all key arguments, which are recycled to a common length.
 This is the estimator the authors recommend in preference to both
 \code{\link{si_from_ecosite}} and the species conversion equations in
 \code{\link{ab_si_to_si}}.
+
+Values on the \code{"breast"} basis are directly usable as Mixedwood Growth
+Model (MGM) site index input; see \url{https://mgm.ualberta.ca/}.
 }
 \examples{
 si_from_edatope("CM", 5, "C", "Aw")
@@ -57,6 +60,7 @@ si_from_edatope("SASK", 5, "C", "Sw", details = TRUE)
 Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index
   using ecosite and edatope in Alberta and Saskatchewan. MGM Research Note
   #2019-1. University of Alberta, Edmonton, Alberta.
+  \url{https://mgm.ualberta.ca/research-notes/}
 }
 \seealso{
 \code{\link{si_from_ecosite}}, \code{\link{ab_si_edatope}}

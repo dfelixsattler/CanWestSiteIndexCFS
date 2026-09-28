@@ -52,6 +52,7 @@
 #' @references Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion
 #'   equations for Alberta and Saskatchewan. MGM Research Note #2019-2.
 #'   University of Alberta, Edmonton, Alberta.
+#'   \url{https://mgm.ualberta.ca/research-notes/}
 #'
 #' @seealso \code{\link{ab_si_conversions}}, \code{\link{si_from_edatope}},
 #'   \code{\link{si_to_si}} for the British Columbia Sindex conversions.

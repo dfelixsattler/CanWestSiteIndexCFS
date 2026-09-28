@@ -16,7 +16,9 @@ Description: Site index estimation for western Canadian forest inventory and
   ecosite, ecosite phase and edatope for British Columbia, Alberta,
   Saskatchewan and Manitoba. Examples of usage for Permanent Sample Plots
   (PSP) and growth-and-yield models are provided.
-License: Apache License (== 2.0) | file LICENSE
+License: GPL (>= 2)
+URL: https://github.com/dfelixsattler/CanWestSiteIndexCFS
+BugReports: https://github.com/dfelixsattler/CanWestSiteIndexCFS/issues
 Encoding: UTF-8
 LazyData: true
 Imports: 

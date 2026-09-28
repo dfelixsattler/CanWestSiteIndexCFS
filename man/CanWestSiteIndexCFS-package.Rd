@@ -31,8 +31,32 @@ The package provides three broadly independent groups of tools.
   natural subregion and ecosite or edatope
   (\code{\link{si_from_ecosite}}, \code{\link{si_from_edatope}}), and
   published ecosite-guide site index tables for British Columbia, Alberta,
-  Saskatchewan and Manitoba (\code{\link{si_from_ecosite_guide}}).
+  Saskatchewan and Manitoba (\code{\link{si_from_ecosite_guide}}). These
+  implement research notes published by the Mixedwood Growth Model (MGM)
+  project; see \url{https://mgm.ualberta.ca/research-notes/}.
 }
+\section{Use with the Mixedwood Growth Model (MGM)}{
+
+  MGM is an individual-tree, distance-independent growth model for the
+  boreal mixedwood of western Canada, maintained by the University of
+  Alberta (\url{https://mgm.ualberta.ca/}). It takes site index at 50 years
+  \strong{breast height} age for each species in the stand.
+
+  GYPSY, by contrast, is parameterised on \strong{total} age, so the two are
+  not interchangeable. Every Alberta function here therefore exposes the
+  basis explicitly: use \code{\link{ab_si_total_to_bh}} and
+  \code{\link{ab_si_bh_to_total}} directly, or the \code{age_basis} argument
+  of \code{\link{ab_si_to_height}} and \code{\link{ab_height_to_si}}.
+
+  Where a species in the stand has no measurable site index,
+  \code{\link{si_from_edatope}} is the estimator the MGM research notes
+  recommend, followed by \code{\link{si_from_ecosite}} and then
+  \code{\link{ab_si_to_si}}. All three return values on the breast height
+  age 50 basis by default. See
+  \code{vignette("alberta-site-index", package = "CanWestSiteIndexCFS")} for
+  a worked example that assembles MGM-ready inputs.
+}
+
 \section{Definition -- Site Index and Suitable Site Trees}{
 
   For a given species, site index is defined in BC as the height of the
@@ -59,14 +83,16 @@ The package provides three broadly independent groups of tools.
 Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index using ecosite
   and edatope in Alberta and Saskatchewan. MGM Research Note #2019-1.
   University of Alberta, Edmonton, Alberta.
+  \url{https://mgm.ualberta.ca/research-notes/}
 
   Bjelanovic, I., and Comeau, P.G. 2019. Species SI conversion equations for
   Alberta and Saskatchewan. MGM Research Note #2019-2. University of
   Alberta, Edmonton, Alberta.
+  \url{https://mgm.ualberta.ca/research-notes/}
 
   Comeau, P.G. 2020. Estimating site index using ecosite guides for Western
   Canada. MGM Research Note #2020-1. University of Alberta, Edmonton,
-  Alberta.
+  Alberta. \url{https://mgm.ualberta.ca/research-notes/}
 
   Huang, S., Meng, S.X., and Yang, Y. 2009. A Growth and Yield Projection
   System (GYPSY) for Natural and Post-harvest Stands in Alberta. Alberta

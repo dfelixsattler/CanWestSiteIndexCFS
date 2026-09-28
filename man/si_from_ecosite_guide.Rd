@@ -67,7 +67,7 @@ unique(si_ecosite_guides[, c("jurisdiction", "unit")])
 \references{
 Comeau, P.G. 2020. Estimating site index using ecosite guides for
   Western Canada. MGM Research Note #2020-1. University of Alberta,
-  Edmonton, Alberta.
+  Edmonton, Alberta. \url{https://mgm.ualberta.ca/research-notes/}
 }
 \seealso{
 \code{\link{si_ecosite_guides}}, \code{\link{si_from_edatope}}

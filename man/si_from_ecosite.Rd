@@ -51,6 +51,9 @@ three or more plots were retained.
 Bjelanovic and Comeau recommend edatope (see \code{\link{si_from_edatope}})
 over ecosite, because edatopes cover a narrower range of site conditions and
 are easier to determine in young stands.
+
+Values on the \code{"breast"} basis are directly usable as Mixedwood Growth
+Model (MGM) site index input; see \url{https://mgm.ualberta.ca/}.
 }
 \examples{
 si_from_ecosite("CM", "d", "Aw")
@@ -62,6 +65,7 @@ si_from_ecosite("LF", "e", "Pl", details = TRUE)
 Bjelanovic, I., and Comeau, P.G. 2019. Estimating site index
   using ecosite and edatope in Alberta and Saskatchewan. MGM Research Note
   #2019-1. University of Alberta, Edmonton, Alberta.
+  \url{https://mgm.ualberta.ca/research-notes/}
 }
 \seealso{
 \code{\link{si_from_edatope}}, \code{\link{si_from_ecosite_guide}},
