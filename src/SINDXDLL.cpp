@@ -2503,7 +2503,7 @@ double Sindex_SITOSI (
 std::string Sindex_SpecCode (short int sp_index)
 {
   if (sp_index < 0 || sp_index >= SI_MAX_SPECIES)
-    return NULL;
+    return "";
 
   return si_spec_code[sp_index];
 }
@@ -2514,7 +2514,7 @@ std::string Sindex_SpecCode (short int sp_index)
 std::string Sindex_SpecName (short int sp_index)
 {
   if (sp_index < 0 || sp_index >= SI_MAX_SPECIES)
-    return NULL;
+    return "";
 
   return si_spec_name[sp_index];
 }
@@ -2526,7 +2526,7 @@ std::string Sindex_CurveName (short int cu_index)
   if (cu_index >= 0 && cu_index < SI_MAX_CURVES)
     return si_curve_name[cu_index];
 
-  return NULL;
+  return "";
 }
 
 
@@ -2534,7 +2534,7 @@ std::string Sindex_CurveName (short int cu_index)
 std::string Sindex_CurveSource (short int cu_index)
 {
   if (cu_index < 0 || cu_index >= SI_MAX_CURVES)
-    return NULL;
+    return "";
 
   switch (cu_index)
   {
@@ -2630,7 +2630,7 @@ std::string Sindex_CurveSource (short int cu_index)
 std::string Sindex_CurveNotes (short int cu_index)
 {
   if (cu_index < 0 || cu_index >= SI_MAX_CURVES)
-    return NULL;
+    return "";
 
   switch (cu_index)
   {
