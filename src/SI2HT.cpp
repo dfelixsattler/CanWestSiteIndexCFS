@@ -228,8 +228,12 @@ double index_to_height (
   if (site_index < 1.3)
     return SI_ERR_LT13;
 
-  // should this line be removed?
-  y2bh = ((int) y2bh) + 0.5;
+  // CanWestSiteIndexCFS deviation from the published Sindex 152 source, which
+  // had "y2bh = ((int) y2bh) + 0.5;" here, flagged upstream with the comment
+  // "should this line be removed?". It re-applies the pre-v1.50 half-year
+  // rounding of years-to-breast-height, but only inside this function, so
+  // total/breast-height age conversion here disagreed with age_to_age() by up
+  // to half a year. Sindex 153 removed it; this port follows 153.
 
   if (age_type == SI_AT_TOTAL)
   {

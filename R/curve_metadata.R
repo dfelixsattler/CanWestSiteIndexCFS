@@ -64,8 +64,8 @@ curve_options <- function(species, fiz = NULL) {
       ))
     }
 
-    def_curve <- as.integer(Sindex_DefCurve(as.integer(sp)))
-    curve_names <- vapply(curves, function(x) Sindex_CurveName(as.integer(x)), character(1))
+    def_curve <- as.integer(sindex_def_curve(as.integer(sp)))
+    curve_names <- vapply(curves, function(x) sindex_curve_name(as.integer(x)), character(1))
 
     data.frame(
       species_index = as.integer(sp),
@@ -96,7 +96,7 @@ CurveOptions <- function(species, fiz = NULL) {
 #' @noRd
 DefaultCurve <- function(species, fiz = NULL) {
   sp_index <- SIndexR_SpeciesIndex(species, fiz = fiz)
-  Sindex_DefCurve(sp_index)
+  sindex_def_curve(sp_index)
 }
 
 #' Curve name
@@ -131,7 +131,7 @@ curve_name <- function(cu_index = NULL, species = NULL, curve = "default", fiz =
   }
   if (is.null(cu_index)) stop("Provide either cu_index or species.")
   cu_index <- wholeToInteger(cu_index, "cu_index")
-  unlist(lapply(cu_index, function(s) Sindex_CurveName(s)))
+  unlist(lapply(cu_index, function(s) sindex_curve_name(s)))
 }
 
 #' Curve notes
@@ -165,7 +165,7 @@ curve_notes <- function(cu_index = NULL, species = NULL, curve = "default", fiz 
   }
   if (is.null(cu_index)) stop("Provide either cu_index or species.")
   cu_index <- wholeToInteger(cu_index, "cu_index")
-  unlist(lapply(cu_index, function(s) Sindex_CurveNotes(s)))
+  unlist(lapply(cu_index, function(s) sindex_curve_notes(s)))
 }
 
 #' Curve source citation
@@ -199,7 +199,7 @@ curve_source <- function(cu_index = NULL, species = NULL, curve = "default", fiz
     cu_index <- resolve_curve_index(cu_index = cu_index, species = species, curve = curve, fiz = fiz)
   }
   if (is.null(cu_index)) stop("Provide either cu_index or species.")
-  Sindex_CurveSource(as.integer(cu_index))
+  sindex_curve_source(as.integer(cu_index))
 }
 
 #' Default curve index by establishment type
@@ -232,7 +232,7 @@ default_curve_estab <- function(species, estab) {
 
   inputs <- Map(list, sp_index, estab)
   unlist(lapply(inputs, function(x) {
-    Sindex_DefCurveEst(sp_index = x[[1]], estab = x[[2]])
+    sindex_def_curve_est(sp_index = x[[1]], estab = x[[2]])
   }))
 }
 
@@ -250,5 +250,5 @@ default_curve_estab <- function(species, estab) {
 default_gi_curve <- function(species) {
   sp_index <- SIndexR_SpeciesIndex(species)
   sp_index <- wholeToInteger(sp_index, "species")
-  unlist(lapply(sp_index, function(s) Sindex_DefGICurve(s)))
+  unlist(lapply(sp_index, function(s) sindex_def_gi_curve(s)))
 }

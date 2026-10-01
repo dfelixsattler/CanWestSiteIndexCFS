@@ -56,7 +56,7 @@ SIndexR_DefGICurve <- function(sp_index) {
 #' @rdname SIndexR_FirstCurve
 SIndexR_FirstCurve <- function(sp_index) {
   sp_index <- wholeToInteger(sp_index, "sp_index")
-  return(unlist(lapply(sp_index, function(s) Sindex_FirstCurve(sp_index = s))))
+  return(unlist(lapply(sp_index, function(s) sindex_first_curve(sp_index = s))))
 }
 
 #' First species defined in Sindex
@@ -69,7 +69,7 @@ SIndexR_FirstCurve <- function(sp_index) {
 #' @noRd
 #' @rdname SIndexR_FirstSpecies
 SIndexR_FirstSpecies <- function() {
-  return(Sindex_FirstSpecies())
+  return(sindex_first_species())
 }
 
 #' @importFrom data.table data.table
@@ -115,7 +115,7 @@ SIndexR_NextCurve <- function(sp_index, cu_index) {
     stop("sp_index and cu_index do not have same length.")
   }
   allinputs <- Map(list, lapply(sp_index, function(s) s), lapply(cu_index, function(s) s))
-  return(unlist(lapply(allinputs, function(s) Sindex_NextCurve(sp_index = s[[1]], cu_index = s[[2]]))))
+  return(unlist(lapply(allinputs, function(s) sindex_next_curve(sp_index = s[[1]], cu_index = s[[2]]))))
 }
 
 #' Next species defined in Sindex
@@ -128,13 +128,13 @@ SIndexR_NextCurve <- function(sp_index, cu_index) {
 #' @rdname SIndexR_NextSpecies
 SIndexR_NextSpecies <- function(sp_index) {
   sp_index <- wholeToInteger(sp_index, "sp_index")
-  return(unlist(lapply(sp_index, function(s) Sindex_NextSpecies(s))))
+  return(unlist(lapply(sp_index, function(s) sindex_next_species(s))))
 }
 
 #' @noRd
 SIndexR_SpecUse <- function(sp_index) {
   sp_index <- wholeToInteger(sp_index, "sp_index")
-  unlist(lapply(sp_index, function(s) Sindex_SpecUse(s)))
+  unlist(lapply(sp_index, function(s) sindex_spec_use(s)))
 }
 
 #' @noRd

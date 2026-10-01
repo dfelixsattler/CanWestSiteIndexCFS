@@ -11,7 +11,8 @@ test_that("SI2HT returns expected height for known inputs", {
 test_that("SI2AGE returns expected approximate age", {
   res <- SI2AGE(1, 30, 1, 30)
   expect_true(is.numeric(res))
-  expect_equal(round(res, 5), 50.49023)
+  # site index is height at breast height age 50, so this must round-trip to 50
+  expect_equal(res, 50, tolerance = 0.01)
 })
 
 test_that("si_to_y2bh computes breast height age correctly", {

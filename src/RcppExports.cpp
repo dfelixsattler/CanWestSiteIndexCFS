@@ -436,6 +436,248 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// sindex_ext_ht2age
+double sindex_ext_ht2age(int curve_index, double site_height, int age_type, double site_index, double y2bh);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_ht2age(SEXP curve_indexSEXP, SEXP site_heightSEXP, SEXP age_typeSEXP, SEXP site_indexSEXP, SEXP y2bhSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type curve_index(curve_indexSEXP);
+    Rcpp::traits::input_parameter< double >::type site_height(site_heightSEXP);
+    Rcpp::traits::input_parameter< int >::type age_type(age_typeSEXP);
+    Rcpp::traits::input_parameter< double >::type site_index(site_indexSEXP);
+    Rcpp::traits::input_parameter< double >::type y2bh(y2bhSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_ht2age(curve_index, site_height, age_type, site_index, y2bh));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_age2age
+double sindex_ext_age2age(int curve_index, double age1, int age1_type, int age2_type, double y2bh);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_age2age(SEXP curve_indexSEXP, SEXP age1SEXP, SEXP age1_typeSEXP, SEXP age2_typeSEXP, SEXP y2bhSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type curve_index(curve_indexSEXP);
+    Rcpp::traits::input_parameter< double >::type age1(age1SEXP);
+    Rcpp::traits::input_parameter< int >::type age1_type(age1_typeSEXP);
+    Rcpp::traits::input_parameter< int >::type age2_type(age2_typeSEXP);
+    Rcpp::traits::input_parameter< double >::type y2bh(y2bhSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_age2age(curve_index, age1, age1_type, age2_type, y2bh));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_si2si
+double sindex_ext_si2si(int sp_index1, double site, int sp_index2);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_si2si(SEXP sp_index1SEXP, SEXP siteSEXP, SEXP sp_index2SEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index1(sp_index1SEXP);
+    Rcpp::traits::input_parameter< double >::type site(siteSEXP);
+    Rcpp::traits::input_parameter< int >::type sp_index2(sp_index2SEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_si2si(sp_index1, site, sp_index2));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_first_species
+int sindex_ext_first_species();
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_first_species() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_first_species());
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_next_species
+int sindex_ext_next_species(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_next_species(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_next_species(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_spec_use
+int sindex_ext_spec_use(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_spec_use(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_spec_use(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_spec_code
+SEXP sindex_ext_spec_code(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_spec_code(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_spec_code(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_spec_name
+SEXP sindex_ext_spec_name(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_spec_name(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_spec_name(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_spec_map
+int sindex_ext_spec_map(std::string sc);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_spec_map(SEXP scSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< std::string >::type sc(scSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_spec_map(sc));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_spec_remap
+int sindex_ext_spec_remap(std::string sc, std::string fiz);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_spec_remap(SEXP scSEXP, SEXP fizSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< std::string >::type sc(scSEXP);
+    Rcpp::traits::input_parameter< std::string >::type fiz(fizSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_spec_remap(sc, fiz));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_def_curve
+int sindex_ext_def_curve(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_def_curve(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_def_curve(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_def_gi_curve
+int sindex_ext_def_gi_curve(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_def_gi_curve(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_def_gi_curve(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_def_curve_est
+int sindex_ext_def_curve_est(int sp_index, int estab);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_def_curve_est(SEXP sp_indexSEXP, SEXP estabSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    Rcpp::traits::input_parameter< int >::type estab(estabSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_def_curve_est(sp_index, estab));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_first_curve
+int sindex_ext_first_curve(int sp_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_first_curve(SEXP sp_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_first_curve(sp_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_next_curve
+int sindex_ext_next_curve(int sp_index, int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_next_curve(SEXP sp_indexSEXP, SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type sp_index(sp_indexSEXP);
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_next_curve(sp_index, cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_curve_to_species
+int sindex_ext_curve_to_species(int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_curve_to_species(SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_curve_to_species(cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_curve_use
+int sindex_ext_curve_use(int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_curve_use(SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_curve_use(cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_curve_name
+SEXP sindex_ext_curve_name(int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_curve_name(SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_curve_name(cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_curve_source
+SEXP sindex_ext_curve_source(int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_curve_source(SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_curve_source(cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_curve_notes
+SEXP sindex_ext_curve_notes(int cu_index);
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_curve_notes(SEXP cu_indexSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type cu_index(cu_indexSEXP);
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_curve_notes(cu_index));
+    return rcpp_result_gen;
+END_RCPP
+}
+// sindex_ext_bridged
+std::vector<std::string> sindex_ext_bridged();
+RcppExport SEXP _CanWestSiteIndexCFS_sindex_ext_bridged() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(sindex_ext_bridged());
+    return rcpp_result_gen;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_CanWestSiteIndexCFS_age_to_age", (DL_FUNC) &_CanWestSiteIndexCFS_age_to_age, 5},
@@ -474,6 +716,27 @@ static const R_CallMethodDef CallEntries[] = {
     {"_CanWestSiteIndexCFS_sindex_ext_y2bh", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_y2bh, 2},
     {"_CanWestSiteIndexCFS_sindex_ext_sc2si", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_sc2si, 3},
     {"_CanWestSiteIndexCFS_sindex_ext_version_number", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_version_number, 0},
+    {"_CanWestSiteIndexCFS_sindex_ext_ht2age", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_ht2age, 5},
+    {"_CanWestSiteIndexCFS_sindex_ext_age2age", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_age2age, 5},
+    {"_CanWestSiteIndexCFS_sindex_ext_si2si", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_si2si, 3},
+    {"_CanWestSiteIndexCFS_sindex_ext_first_species", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_first_species, 0},
+    {"_CanWestSiteIndexCFS_sindex_ext_next_species", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_next_species, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_spec_use", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_spec_use, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_spec_code", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_spec_code, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_spec_name", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_spec_name, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_spec_map", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_spec_map, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_spec_remap", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_spec_remap, 2},
+    {"_CanWestSiteIndexCFS_sindex_ext_def_curve", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_def_curve, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_def_gi_curve", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_def_gi_curve, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_def_curve_est", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_def_curve_est, 2},
+    {"_CanWestSiteIndexCFS_sindex_ext_first_curve", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_first_curve, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_next_curve", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_next_curve, 2},
+    {"_CanWestSiteIndexCFS_sindex_ext_curve_to_species", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_curve_to_species, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_curve_use", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_curve_use, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_curve_name", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_curve_name, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_curve_source", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_curve_source, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_curve_notes", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_curve_notes, 1},
+    {"_CanWestSiteIndexCFS_sindex_ext_bridged", (DL_FUNC) &_CanWestSiteIndexCFS_sindex_ext_bridged, 0},
     {NULL, NULL, 0}
 };
 

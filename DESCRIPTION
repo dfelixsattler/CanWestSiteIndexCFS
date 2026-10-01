@@ -1,8 +1,8 @@
 Package: CanWestSiteIndexCFS
 Type: Package
 Title: Site Index Tools for Western Canadian PSP and Growth Workflows
-Version: 0.3.1
-Date: 2026-09-28
+Version: 0.4.0
+Date: 2026-09-29
 Authors@R: c(
   person("Derek Felix", "Sattler", email = "Derek.Sattler@nrcan-rncan.gc.ca", role = c("aut", "cre")),
   person("Yong", "Luo", email = "Yong.Luo@gov.bc.ca", role = "ctb", comment = "Original SIndexR package author"),

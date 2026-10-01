@@ -10,18 +10,28 @@
 > a deprecation cycle. Pin a commit if you depend on it in production.
 
 CanWestSiteIndexCFS provides site index estimation for western Canadian forest
-inventory and growth-and-yield workflows. It began as a modernized fork of the
-British Columbia `SIndexR` package and now also covers the Alberta GYPSY
-height-age models, the Alberta and Saskatchewan species site index conversion
-equations, and published site index lookup tables keyed by ecosite, ecosite
-phase and edatope for British Columbia, Alberta, Saskatchewan and Manitoba.
+inventory and growth-and-yield workflows. It:
 
-The Alberta and ecological estimators implement research notes published by the
-[Mixedwood Growth Model (MGM)](https://mgm.ualberta.ca/) project at the
-University of Alberta. MGM uses site index at 50 years **breast height** age as
-its measure of site productivity, so every function here that can return site
-index on that basis does so through an explicit `age_basis` argument. The
-intent is that outputs can be fed to MGM without a silent unit mismatch.
+- includes all site index (height-age) curves available in the British Columbia
+  Sindex DLL used by SiteTools, together with their curve and species metadata,
+  and can optionally run against an official BC DLL instead of the bundled
+  source;
+- includes the Alberta GYPSY height-age models (Huang, Meng & Yang 2009), used
+  for both GYPSY and MGM;
+- includes the Alberta and Saskatchewan species site index conversion equations
+  used by MGM, as well as the British Columbia species conversions from Sindex;
+- includes site index estimates keyed by edatope and by ecological
+  classification — ecosite and ecosite phase — for use in MGM and elsewhere,
+  covering British Columbia, Alberta, Saskatchewan and Manitoba;
+- handles age-basis conversion explicitly, so site index can be returned at
+  50 years total age (GYPSY) or 50 years breast height age (MGM, TASS/TIPSY/
+  VDYP) without a silent unit mismatch, including years-to-breast-height and
+  breast-height/total age conversion;
+- provides inversion in both directions — height and age to site index, and
+  site index and age to height — plus site class to site index, so field plot
+  measurements can be turned into site index directly;
+- exposes everything through a vectorised, NA-safe R interface, with the legacy
+  `SIndexR_*` function names retained for backward compatibility.
 
 ## Project goals
 
@@ -179,18 +189,77 @@ vignette("legacy-interfaces", package = "CanWestSiteIndexCFS")
 
 ## External Sindex DLL
 
-The package works standalone using its built-in C++ implementation. Optionally,
-you can load the official Sindex DLL from the BC Government for bit-identical
-results with SiteTools:
+The package works standalone: BC's Sindex C source is compiled into the package
+itself, so no download is needed. **That bundled copy is Sindex version 152** --
+the most recent C source the BC Government has published. Check what you are
+running with `sindex_version()`.
+
+Optionally you can load a newer official Sindex DLL at runtime, which is the
+only way to get results that match current SiteTools exactly:
 
 **Download:** [Sindex DLL v154 (BC Government)](https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/stewardship/forest-analysis-inventory/software/sindex_dll_v154.zip)
 
 ```r
 library(CanWestSiteIndexCFS)
+sindex_version()                          # 152, the bundled source
 set_external_dll("C:/path/to/sindex64.dll")
+sindex_version()                          # 154, the loaded DLL
+external_dll_info()$bridged               # which routines the DLL now serves
 si_age_to_ht(species = "FDC", age = 50, site_index = 28)
 clear_external_dll()
 ```
+
+### What differs between bundled 152 and DLL 153/154
+
+The bundled source is Sindex 152, the most recent C source the BC Government
+has published, with two defects corrected and the lodgepole pine default
+updated (see below). Versions 153 and 154 are identical to each other for
+everything this package does, and the bundled engine now reproduces them to
+floating-point precision: same default curve for every species, and the same
+years-to-breast-height, height at breast height age, height at total age, and
+age from height across all 124 curves.
+
+One difference remains, and cannot be resolved without newer source from the BC
+Government. Sindex 153 inserted a species, which shifts every **integer**
+species index from `Fd` onward by one, and added a curve index. This only
+matters if you pass raw integers; pass species and curve *codes* (`"PLI"`,
+`"Nigh (2017)"`) and results hold across a DLL swap.
+
+Verified against the 153 and 154 DLLs, matching species by code: species names,
+default curves, default growth-intercept curves, the species-use bit-field,
+site class conversion and all 20,736 ordered species-conversion pairs are
+identical. Two things are present in 153/154 but not in the bundled tables:
+
+- the species code `"F"` (generic Douglas-fir) at index 39, which carries no
+  curves and no conversions, and exists only so a bare `"F"` resolves; the
+  FIZ-aware form `species_to_sp_index("F", fiz)` already works here
+- one additional selectable white spruce curve, 124, Nigh (2018). It is not the
+  default for any species, so it is reachable only by naming it explicitly
+
+### Corrections to the published Sindex 152 source
+
+Two defects in the C source published by the BC Government were confirmed
+against the official 153 and 154 DLLs and corrected here. Both were fixed by
+the BC Government in Sindex 153.
+
+- `index_to_height()` re-applied the pre-1.50 half-year rounding of
+  years-to-breast-height, but only inside that one function, so total and
+  breast height age conversion disagreed with `age_to_age()` by up to half a
+  year on 114 of the 124 curves. The line was flagged in the published source
+  with the comment `should this line be removed?`.
+- Nigh's 2017 lodgepole pine curve (123) was missing from the half-year
+  age-correction list in `age_to_age()`.
+
+### Default lodgepole pine curve
+
+The default Pli curve is **Nigh (2017)**, curve 123, following current BC
+practice. The published 152 source defaults to Thrower (1994), curve 45, which
+the BC Government replaced in Sindex 153. Pass `curve = 45` for the older
+curve. The two agree at breast height age 50; Nigh runs up to 0.38 m lower
+around ages 30 to 40 and up to 1.22 m higher by age 120.
+
+Note that the DLL backend is Windows-only. On Linux and macOS the bundled
+source is the only option.
 
 ## How to Cite
 

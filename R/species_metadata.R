@@ -5,13 +5,13 @@
 #' @noRd
 SIndexR_SpecCode <- function(sp_index) {
   sp_index <- wholeToInteger(sp_index, "sp_index")
-  return(unlist(lapply(sp_index, function(s) Sindex_SpecCode(s))))
+  return(unlist(lapply(sp_index, function(s) sindex_spec_code(s))))
 }
 
 #' @noRd
 SIndexR_SpecName <- function(sp_index) {
   sp_index <- wholeToInteger(sp_index, "sp_index")
-  return(unlist(lapply(sp_index, function(s) Sindex_SpecName(s))))
+  return(unlist(lapply(sp_index, function(s) sindex_spec_name(s))))
 }
 
 #' Resolve species index using FIZ-aware remapping
@@ -40,7 +40,7 @@ species_to_sp_index <- function(species, fiz) {
     stop("species and fiz must have the same length, or one must be length 1.")
   }
   inputs <- Map(list, species, fiz)
-  unlist(lapply(inputs, function(x) species_remap(sc = x[[1]], fiz = x[[2]])))
+  unlist(lapply(inputs, function(x) sindex_species_remap(sc = x[[1]], fiz = x[[2]])))
 }
 
 #' Get canonical species code
@@ -98,7 +98,7 @@ species_name <- function(species, fiz = NULL) {
 species_location <- function(species, fiz = NULL) {
   sp_index <- SIndexR_SpeciesIndex(species, fiz = fiz)
   sp_index <- wholeToInteger(sp_index, "species")
-  raw <- unlist(lapply(sp_index, function(s) Sindex_SpecUse(s)))
+  raw <- unlist(lapply(sp_index, function(s) sindex_spec_use(s)))
 
   result <- data.frame(
     species  = if (is.character(species)) species else as.character(sp_index),

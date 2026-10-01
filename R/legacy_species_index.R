@@ -28,7 +28,7 @@
 #' @noRd
 SIndexR_SpecMap <- function(sc)
 {
-  return(unlist(lapply(sc, function(s) species_map (s))))
+  return(unlist(lapply(sc, function(s) sindex_species_map(s))))
 }
 
 #' @title
@@ -52,7 +52,7 @@ SIndexR_SpeciesIndex <- function(species, fiz = NULL)
 
   if (is.character(species)) {
     if (is.null(fiz)) {
-      return(unlist(lapply(species, function(s) species_map(s))))
+      return(unlist(lapply(species, function(s) sindex_species_map(s))))
     }
 
     if (length(species) == 1 & length(fiz) != 1) {
@@ -65,7 +65,7 @@ SIndexR_SpeciesIndex <- function(species, fiz = NULL)
     species_list <- lapply(species, function(s) s)
     fiz_list <- lapply(fiz, function(s) s)
     allinputs <- Map(list, species_list, fiz_list)
-    return(unlist(lapply(allinputs, function(s) species_remap(sc = s[[1]],
+    return(unlist(lapply(allinputs, function(s) sindex_species_remap(sc = s[[1]],
                                                                fiz = s[[2]]))))
   }
 

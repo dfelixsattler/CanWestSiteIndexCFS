@@ -39,6 +39,9 @@ test_that("external DLL mode matches built-in mode for core wrappers", {
   b_siy2bh <- si_to_y2bh(site_index = 30, species = "FDC", curve = "Bruce (1981ac)")
   b_si2age <- SI2AGE(site_height = 30, age_type = 1, site_index = 30, species = "FDC", curve = "Bruce (1981ac)")
   b_age2age <- Age2Age(age1 = 50, age1_type = 1, age2_type = 0, species = "FDC", curve = "Bruce (1981ac)")
+  b_sc2si <- SC2SI("FDI", "M", "H")
+  b_si2si <- si_to_si("BA", 20, "HWC")
+  b_specname <- species_name("FDI")
 
   on.exit(SIndexR_ClearExternalDll(), add = TRUE)
   expect_true(SIndexR_SetExternalDll(dll_path))
@@ -50,13 +53,34 @@ test_that("external DLL mode matches built-in mode for core wrappers", {
   e_si2age <- SI2AGE(site_height = 30, age_type = 1, site_index = 30, species = "FDC", curve = "Bruce (1981ac)")
   e_age2age <- Age2Age(age1 = 50, age1_type = 1, age2_type = 0, species = "FDC", curve = "Bruce (1981ac)")
   e_sc2si <- SC2SI("FDI", "M", "H")
+  e_si2si <- si_to_si("BA", 20, "HWC")
+  e_specname <- species_name("FDI")
 
   expect_equal(e_ht2si, b_ht2si, tolerance = 1e-6)
   expect_equal(e_si2ht, b_si2ht, tolerance = 1e-3)
   expect_equal(e_siy2bh, b_siy2bh, tolerance = 1e-3)
   expect_equal(e_si2age, b_si2age, tolerance = 5e-2)
   expect_equal(e_age2age, b_age2age, tolerance = 1e-6)
-  expect_equal(e_sc2si, 27, tolerance = 1e-6)
+  expect_equal(e_sc2si, b_sc2si, tolerance = 1e-6)
+  expect_equal(e_si2si, b_si2si, tolerance = 1e-6)
+  expect_equal(e_specname, b_specname)
+})
+
+test_that("a current DLL resolves every bridged export", {
+  skip_if(.Platform$OS.type != "windows", "External DLL backend is Windows-only")
+
+  dll_path <- get_external_dll_path()
+  skip_if(is.na(dll_path), "Set SINDEX_EXTERNAL_DLL or place DLL at C:/sindex64.dll")
+
+  on.exit(clear_external_dll(), add = TRUE)
+  expect_true(set_external_dll(dll_path))
+
+  info <- external_dll_info()
+  expect_true(all(c(
+    "Sindex_HtSIToAge", "Sindex_AgeToAge", "Sindex_SIToSI",
+    "Sindex_SpecMap", "Sindex_SpecRemap", "Sindex_CurveName"
+  ) %in% info$bridged))
+  expect_false(is.na(info$version))
 })
 
 test_that("external DLL reproduces SiteTools anchor points", {

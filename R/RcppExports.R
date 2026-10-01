@@ -145,3 +145,87 @@ sindex_ext_version_number <- function() {
     .Call(`_CanWestSiteIndexCFS_sindex_ext_version_number`)
 }
 
+sindex_ext_ht2age <- function(curve_index, site_height, age_type, site_index, y2bh) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_ht2age`, curve_index, site_height, age_type, site_index, y2bh)
+}
+
+sindex_ext_age2age <- function(curve_index, age1, age1_type, age2_type, y2bh) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_age2age`, curve_index, age1, age1_type, age2_type, y2bh)
+}
+
+sindex_ext_si2si <- function(sp_index1, site, sp_index2) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_si2si`, sp_index1, site, sp_index2)
+}
+
+sindex_ext_first_species <- function() {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_first_species`)
+}
+
+sindex_ext_next_species <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_next_species`, sp_index)
+}
+
+sindex_ext_spec_use <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_spec_use`, sp_index)
+}
+
+sindex_ext_spec_code <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_spec_code`, sp_index)
+}
+
+sindex_ext_spec_name <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_spec_name`, sp_index)
+}
+
+sindex_ext_spec_map <- function(sc) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_spec_map`, sc)
+}
+
+sindex_ext_spec_remap <- function(sc, fiz) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_spec_remap`, sc, fiz)
+}
+
+sindex_ext_def_curve <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_def_curve`, sp_index)
+}
+
+sindex_ext_def_gi_curve <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_def_gi_curve`, sp_index)
+}
+
+sindex_ext_def_curve_est <- function(sp_index, estab) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_def_curve_est`, sp_index, estab)
+}
+
+sindex_ext_first_curve <- function(sp_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_first_curve`, sp_index)
+}
+
+sindex_ext_next_curve <- function(sp_index, cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_next_curve`, sp_index, cu_index)
+}
+
+sindex_ext_curve_to_species <- function(cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_curve_to_species`, cu_index)
+}
+
+sindex_ext_curve_use <- function(cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_curve_use`, cu_index)
+}
+
+sindex_ext_curve_name <- function(cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_curve_name`, cu_index)
+}
+
+sindex_ext_curve_source <- function(cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_curve_source`, cu_index)
+}
+
+sindex_ext_curve_notes <- function(cu_index) {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_curve_notes`, cu_index)
+}
+
+sindex_ext_bridged <- function() {
+    .Call(`_CanWestSiteIndexCFS_sindex_ext_bridged`)
+}
+

@@ -13,20 +13,58 @@ set_external_dll(dll_path)
 logical TRUE if loaded successfully
 }
 \description{
-Loads an external `sindex*.dll` and enables core wrapper calls (`HT2SI`,
-`SI2HT`, `SIY2BH`, `SC2SI`) to use that DLL at runtime.
+Loads an external `sindex*.dll` and routes calculations to that DLL at
+runtime instead of using the Sindex source bundled with this package.
 }
+\section{What the swap covers}{
+
+Four exports are required and the load fails if any is missing:
+`Sindex_HtAgeToSI`, `Sindex_AgeSIToHt`, `Sindex_Y2BH` and `Sindex_SCToSI`.
+
+The following are resolved if the DLL exports them, which a current
+SiteTools DLL does: `Sindex_HtSIToAge`, `Sindex_AgeToAge`, `Sindex_SIToSI`,
+`Sindex_VersionNumber`, `Sindex_FirstSpecies`, `Sindex_NextSpecies`,
+`Sindex_SpecUse`, `Sindex_SpecCode`, `Sindex_SpecName`, `Sindex_SpecMap`,
+`Sindex_SpecRemap`, `Sindex_DefCurve`, `Sindex_DefGICurve`,
+`Sindex_DefCurveEst`, `Sindex_FirstCurve`, `Sindex_NextCurve`,
+`Sindex_CurveToSpecies`, `Sindex_CurveUse`, `Sindex_CurveName`,
+`Sindex_CurveSource` and `Sindex_CurveNotes`. When all of these resolve,
+every curve, species list, species conversion and height-age calculation
+comes from the loaded DLL, so there is no mixing of versions.
+}
+
+\section{What the swap does not cover}{
+
+Any export the DLL does not provide falls back to the bundled source, which
+is Sindex 152. Mixing versions this way is not checked for consistency, so
+inspect `external_dll_info()$bridged` to see exactly what resolved.
+
+The bridge is Windows-only. On Linux and macOS `set_external_dll()` always
+fails and the bundled source is the only option.
+
+The Alberta, Saskatchewan and ecological estimators in this package are not
+part of Sindex and are unaffected by the DLL setting.
+}
+
+\section{Integer species and curve indices are version-specific}{
+
+Sindex numbers species and curves by position, and later versions insert new
+entries rather than appending them. Sindex 153 adds species code `"F"` at
+index 39, which shifts every species from `Fd` onward by one relative to the
+bundled 152 tables, and it defines a curve index beyond the bundled maximum.
+Pass species and curve *codes* (`"FDI"`, `"Bruce (1981ac)"`) rather than raw
+integers if results must hold across a DLL swap.
+}
+
 \examples{
 \dontrun{
 # Load an external Sindex DLL
 set_external_dll("C:/Program Files/Sindex/sindex64.dll")
 
-# Confirm it loaded
-external_dll_info()
-# $loaded
-# [1] TRUE
-# $dll_path
-# [1] "C:/Program Files/Sindex/sindex64.dll"
+# Confirm it loaded, and see which routines it now serves
+external_dll_info()$loaded
+external_dll_info()$version
+external_dll_info()$bridged
 
 # Wrapper functions now use the external DLL
 si_age_to_ht(species = "FDC", age = 50, site_index = 28)
@@ -34,4 +72,7 @@ si_age_to_ht(species = "FDC", age = 50, site_index = 28)
 # Revert to built-in implementation when done
 clear_external_dll()
 }
+}
+\seealso{
+\code{\link{external_dll_info}}, \code{\link{clear_external_dll}}
 }

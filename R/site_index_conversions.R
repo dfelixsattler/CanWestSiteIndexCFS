@@ -17,7 +17,7 @@
     stop("source_species and target_species must each resolve to a single species index.")
   }
 
-  Sindex_SITOSI(as.integer(sp_index1), as.numeric(site_index), as.integer(sp_index2))
+  sindex_si_to_si(as.integer(sp_index1), as.numeric(site_index), as.integer(sp_index2))
 }
 
 #' Convert site index between species

@@ -36,13 +36,13 @@ resolve_curve_index <- function(cu_index = NULL, species = NULL, curve = "defaul
 
   curve_key <- tolower(curve)
   if (curve_key %in% c("default", "def")) {
-    return(as.integer(Sindex_DefCurve(sp_index)))
+    return(as.integer(sindex_def_curve(sp_index)))
   }
   if (curve_key == "first") {
     return(as.integer(available_curves[[1]]))
   }
 
-  curve_names <- vapply(available_curves, function(x) Sindex_CurveName(as.integer(x)), character(1))
+  curve_names <- vapply(available_curves, function(x) sindex_curve_name(as.integer(x)), character(1))
   curve_names_lc <- tolower(curve_names)
 
   exact_match <- which(curve_names_lc == curve_key)

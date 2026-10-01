@@ -118,6 +118,11 @@ double age_to_age (
 #ifdef SI_PJ_HUANGAC
   case SI_PJ_HUANGAC:
 #endif
+// Nigh's 2017 Pli was added to the curve tables in Sindex 152 but omitted from
+// this half-year list; Sindex 153 includes it. Verified against the 153 DLL.
+#ifdef SI_PLI_NIGH
+  case SI_PLI_NIGH:
+#endif
 #ifdef SI_PLI_NIGHTA2004
   case SI_PLI_NIGHTA2004:
 #endif

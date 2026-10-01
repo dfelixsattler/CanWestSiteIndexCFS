@@ -1831,7 +1831,9 @@ static char si_curve_default[SI_MAX_SPECIES] =
   SI_PJ_HUANGAC,          // PJ
   SI_ERR_NO_ANS,          // PL
   SI_ERR_NO_ANS,          // PLC
-  SI_PLI_THROWER,         // PLI
+  // Sindex 153 changed the Pli default from SI_PLI_THROWER to Nigh's 2017
+  // g-GADA curve; this port follows current BC practice.
+  SI_PLI_NIGH,            // PLI
   SI_ERR_NO_ANS,          // PM
   SI_ERR_NO_ANS,          // PR
   SI_ERR_NO_ANS,          // PS

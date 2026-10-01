@@ -7,7 +7,10 @@
 external_dll_info()
 }
 \value{
-list with `loaded` and `dll_path`
+list with `loaded`, `dll_path`, `version` (the DLL's reported
+  version, or `NA` if it does not export `Sindex_VersionNumber`) and
+  `bridged` (the Sindex exports resolved in the loaded DLL). Any Sindex
+  routine not listed in `bridged` continues to use the bundled source.
 }
 \description{
 External DLL backend status
