@@ -11,14 +11,14 @@
 # See the License for the specific language governing permissions and limitations under the License.
 
 wholeToInteger <- function(numbers, name) {
-  if(class(numbers) == "numeric"){
+  if(inherits(numbers, "integer")){
+    return(numbers)
+  } else if (inherits(numbers, "numeric")){
     if(!identical(round(numbers), numbers)){
       stop(paste(name, " must be integer or whole number.", sep = ""))
     } else {
       return(as.integer(numbers))
     }
-  } else if (class(numbers) == "integer"){
-    return(numbers)
   } else {
       stop(paste(name, " must be integer or whole number.", sep = ""))
   }
